@@ -5,8 +5,7 @@ THIS IS A WORK IN PROGRESS
 
 ### Connect with me:
 
-[<img align="left" alt="apinanyogaratnam.github.io" 
-src="apinanyogaratnam.github.io/my-personal-website-v2.0/>][website]
+[<img align="left" alt="apinanyogaratnam.github.io" src="apinanyogaratnam.github.io/my-personal-website-v2.0"/>][website]
 
 ### Languages and Tools:
 
