@@ -1,6 +1,6 @@
 THIS IS A WORK IN PROGRESS
 ### Hi there, I'm Apinan Yogaratnam but I usually go by Api
-aliases: Api, A.P., A.P on my wris, Apinu, stewie, stews, stew, baby stews, stewietheangel
+aliases: Api, A.P., A.P on my wris, Apinu, stewie, stews, stew, baby stews, stewietheangel, angel
 
 ## I'm a student, software developer, and a cashier
 
