@@ -4,7 +4,7 @@ aliases: Api, A.P., A.P on my wris, Apinu, stewie, stews, stew, baby stews, stew
 
 ## I'm a student, software developer, and a cashier
 
-# Resume:
+## Resume:
 [Resume](https://drive.google.com/file/d/1RF8Kjd7INjPSKsvQLISNwa2SqWiJCGTQ/view)
 
 ## Currently working on
