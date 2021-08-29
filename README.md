@@ -1,5 +1,5 @@
 THIS IS A WORK IN PROGRESS
-### Hi there, I'm Apinan Yogaratnam but I usually go by Api
+### 👋 Hi there, I'm Apinan Yogaratnam but I usually go by Api
 aliases: Api, A.P., A.P on my wris, Apinu, stewie, stews, stew, baby stews, stewietheangel
 
 ## I'm a student, software developer, and a cashier
@@ -8,11 +8,11 @@ aliases: Api, A.P., A.P on my wris, Apinu, stewie, stews, stew, baby stews, stew
 [Resume](https://drive.google.com/file/d/1RF8Kjd7INjPSKsvQLISNwa2SqWiJCGTQ/view)
 
 ## Currently working on
-- BushelScript
-- My Personal Website
-- A web application
-- A mobile application
-- a hackathon project
+- BushelScript 📝
+- My Personal Website 👨🏾‍💻
+- A web application 🌎
+- A mobile application 📱
+- a hackathon project 🦠
 
 ### Languages and Tools:
 
