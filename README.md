@@ -36,8 +36,8 @@ aliases: Api, A.P., A.P on my wris, Apinu, stewie, stews, stew, baby stews, stew
 [website]: https://apinanyogaratnam.github.io/my-personal-website-v2.0/
 [gh]: https://github.com/apinanyogaratnam
 
-### Connect with me:
-
+### Connect me:
+Email: apinanapinan@icloud.com
 Instagram: apinanyogaratnam
 Facebook: Apinan Yogaratnam 
 Linkedin: Apinan Yogaratnam
