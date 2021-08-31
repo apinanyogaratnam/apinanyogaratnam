@@ -41,4 +41,4 @@ Email: apinanapinan@icloud.com <br />
 Instagram: apinanyogaratnam <br />
 Facebook: Apinan Yogaratnam <br />
 Linkedin: Apinan Yogaratnam <br />
-Website: apinanyogaratnam.github.io/my-personal-website-v2.0 <br />
+Website: https://apinanyogaratnam.github.io/my-personal-website-v2.0 <br />
