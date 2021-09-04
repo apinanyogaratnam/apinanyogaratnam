@@ -13,6 +13,7 @@ aliases: Api, A.P., A.P on my wris, Apinu, stewie, stews, stew, baby stews, stew
 - A web application 🌎
 - A mobile application 📱
 - a hackathon project 🦠
+- learning blockchain development 
 
 ### Languages and Tools:
 
