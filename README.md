@@ -41,5 +41,5 @@ aliases: Api, A.P., A.P on my wris, Apinu, stewie, stews, stew, baby stews, stew
 Email: apinanapinan@icloud.com <br />
 Instagram: apinanyogaratnam <br />
 Facebook: Apinan Yogaratnam <br />
-Linkedin: Apinan Yogaratnam <br />
+Linkedin: https://linkedin/en/Apinan-Yogaratnam <br />
 Website: https://apinanyogaratnam.github.io/my-personal-website-v2.0 <br />
