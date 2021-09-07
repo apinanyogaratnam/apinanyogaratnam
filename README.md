@@ -8,7 +8,7 @@ aliases: Api, A.P., A.P on my wris, Apinu, stewie, stews, stew, baby stews, stew
 [Resume](https://drive.google.com/file/d/1RF8Kjd7INjPSKsvQLISNwa2SqWiJCGTQ/view)
 
 ## Currently working on
-- BushelScript 📝
+- BushelScript 📝 (learning swift)
 - My Personal Website 👨🏾‍💻
 - A web application 🌎
 - A mobile application 📱
