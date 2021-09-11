@@ -1,5 +1,6 @@
 THIS IS A WORK IN PROGRESS
 # 👋 Hi there, I'm Apinan Yogaratnam but I usually go by Api
+(Pronounced like happy without the h)
 aliases: Api, A.P., A.P on my wris, Apinu, stewie, stews, stew, baby stews, stewietheangel
 
 ## I'm a student, software developer, and a cashier
