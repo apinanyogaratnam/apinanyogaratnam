@@ -1,6 +1,5 @@
 THIS IS A WORK IN PROGRESS
 # 👋 Hi there, I'm Apinan Yogaratnam but I usually go by Api
-(Pronounced like happy without the h)
 
 ## I'm a student, software developer, and a cashier
 
