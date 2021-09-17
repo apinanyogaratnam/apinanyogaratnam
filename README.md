@@ -39,7 +39,7 @@ THIS IS A WORK IN PROGRESS
 [gh]: https://github.com/apinanyogaratnam
 
 ### Connect me:
-Email: [mailto](mailto:apinanapinan@icloud.com) <br />
+Email: [apinanapinan@icloud.com](mailto:apinanapinan@icloud.com) <br />
 Instagram: apinanyogaratnam <br />
 Facebook: https://www.facebook.com/apinan.yogaratnam.7 <br />
 Linkedin: https://www.linkedin.com/in/apinan-yogaratnam <br />
