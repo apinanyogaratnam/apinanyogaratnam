@@ -1,4 +1,3 @@
-THIS IS A WORK IN PROGRESS
 # 👋 Hi there, I'm Apinan Yogaratnam but I usually go by Api
 
 ## I'm a student, software developer, and a cashier
