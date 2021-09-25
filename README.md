@@ -8,7 +8,6 @@
 [Resume](https://drive.google.com/file/d/1RF8Kjd7INjPSKsvQLISNwa2SqWiJCGTQ/view)
 
 ## Currently working on
-- BushelScript 📝 (learning swift)
 - My Personal Website 👨🏾‍💻
 - A web application 🌎
 - A mobile application 📱
