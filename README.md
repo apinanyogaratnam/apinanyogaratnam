@@ -12,7 +12,7 @@
 - A web application 🌎
 - A mobile application 📱
 - a hackathon project 🦠
-- learning blockchain development 🧱⛓
+- learning blockchain development 🧱⛓ 
 
 ### Languages and Tools:
 
