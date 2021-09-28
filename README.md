@@ -1,4 +1,4 @@
-# 👋 Hi there, I'm Apinan Yogaratnam but I usually go by Api
+# 👋 Hi there, I'm Api
 
 ## I'm a student at UofT, software developer, and a cashier
 
