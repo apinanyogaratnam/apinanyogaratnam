@@ -9,7 +9,7 @@
 
 ## Currently working on
 - My Personal Website 👨🏾‍💻
-- A web application 🌎
+- A fullstack web application 🌎
 - A mobile application 📱
 - a hackathon project 🦠
 - learning blockchain development 🧱⛓ 
