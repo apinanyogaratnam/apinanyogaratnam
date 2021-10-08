@@ -12,6 +12,7 @@
 - A fullstack web application 🌎
 - A mobile application 📱
 - a hackathon project 🦠
+- certification 📝
 - learning blockchain development 🧱⛓ 
 
 <h3 align="left">Languages and Tools:</h3>
