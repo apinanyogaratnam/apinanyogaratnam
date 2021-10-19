@@ -23,7 +23,7 @@
 
 ### Connect me:
 Email: [apinanapinan@icloud.com](mailto:apinanapinan@icloud.com) <br />
-Devpost: [apinanyogaratnam](https://devpost.com/apinanyogaratnam)
+Devpost: [apinanyogaratnam](https://devpost.com/apinanyogaratnam) <br />
 Instagram: apinanyogaratnam <br />
 Facebook: https://www.facebook.com/apinan.yogaratnam.7 <br />
 Linkedin: https://www.linkedin.com/in/apinan-yogaratnam <br />
