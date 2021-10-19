@@ -26,5 +26,5 @@ Email: [apinanapinan@icloud.com](mailto:apinanapinan@icloud.com) <br />
 Devpost: [apinanyogaratnam](https://devpost.com/apinanyogaratnam) <br />
 Instagram: [apinanyogaratnam](https://www.instagram.com/apinanyogaratnam) <br />
 Facebook: [apinanyogaratnam](https://www.facebook.com/apinanyogaratnam) <br />
-Linkedin: https://www.linkedin.com/in/apinanyogaratnam <br />
+Linkedin: [apinanyogaratnam](https://www.linkedin.com/in/apinanyogaratnam) <br />
 Website: https://apinanyogaratnam.github.io/my-personal-website-v2.0 <br />
