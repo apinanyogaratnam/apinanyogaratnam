@@ -8,7 +8,7 @@
 [Resume](https://drive.google.com/file/d/1RF8Kjd7INjPSKsvQLISNwa2SqWiJCGTQ/view) (a new version available soon)
 
 ## Currently working on
-- a major in mathematics
+- a major in mathematics 🧮
 - a minor in psychology
 - a minor in linguistics
 - My Personal Website 👨🏾‍💻
