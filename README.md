@@ -9,8 +9,8 @@
 
 ## Currently working on
 - a major in mathematics 🧮
+- a minor in statistics
 - a minor in psychology
-- a minor in linguistics
 - My Personal Website 👨🏾‍💻
 - A fullstack web application 🌎
 - A mobile application 📱
