@@ -24,6 +24,7 @@
  ## Hackathons I've attended
  - MacHacks 2021
  - YuHacks 2021
+ - HackFS 2021
   
 [website]: https://apinanyogaratnam.github.io/my-personal-website-v2.0/
 [github]: https://github.com/apinanyogaratnam
