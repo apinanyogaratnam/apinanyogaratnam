@@ -28,6 +28,7 @@
  - EthOnline 2021
  - HackTheValley 2021
  - UniCode 2021
+ - Chainlink 2021
   
 [website]: https://apinanyogaratnam.github.io/my-personal-website-v2.0/
 [github]: https://github.com/apinanyogaratnam
