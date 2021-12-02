@@ -38,7 +38,7 @@
 [github]: https://github.com/apinanyogaratnam
 [gists]: https://gist.github.com/apinanyogaratnam
 
-### Connect me:
+### Connect with me:
 Email: [apinanapinan@icloud.com](mailto:apinanapinan@icloud.com) <br />
 Devpost: [apinanyogaratnam](https://devpost.com/apinanyogaratnam) <br />
 Instagram: [apinanyogaratnam](https://www.instagram.com/apinanyogaratnam) <br />
