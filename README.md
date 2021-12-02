@@ -36,6 +36,7 @@
   
 [website]: https://apinanyogaratnam.github.io/my-personal-website-v2.0/
 [github]: https://github.com/apinanyogaratnam
+[gists]: https://gist.github.com/apinanyogaratnam
 
 ### Connect me:
 Email: [apinanapinan@icloud.com](mailto:apinanapinan@icloud.com) <br />
