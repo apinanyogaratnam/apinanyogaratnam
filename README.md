@@ -13,7 +13,6 @@
 - a minor in psychology 🧠
 - My Personal Website 👨🏾‍💻
 - A fullstack web application 🌎
-- A mobile application
 - a hackathon project 🦠
 - certification 📝
 - learning blockchain development 🧱⛓ 
