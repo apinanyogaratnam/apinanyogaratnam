@@ -35,10 +35,7 @@
  
  2022:
   
-[website]: https://apinanyogaratnam.github.io/my-personal-website-v2.0/
-[github]: https://github.com/apinanyogaratnam
-[gists]: https://gist.github.com/apinanyogaratnam
-
+  
 ### Connect with me:
 Email: [apinanapinan@icloud.com](mailto:apinanapinan@icloud.com) <br />
 Devpost: [apinanyogaratnam](https://devpost.com/apinanyogaratnam) <br />
