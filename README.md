@@ -34,7 +34,7 @@
  - Chainlink Fall 2021
  
  2022:
-  
+ - 
   
 ### Connect with me:
 Email: [apinanapinan@icloud.com](mailto:apinanapinan@icloud.com) <br />
