@@ -26,7 +26,7 @@
  - YuHacks 2021
  - HackFS 2021 🏆
  - EthOnline 2021 🏆
- - HackTheValley 2021🏆
+ - HackTheValley 2021 🏆
  - UniCode 2021
  - Chainlink 2021
  - Web3 Jam 2021
