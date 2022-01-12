@@ -29,9 +29,8 @@
  - HackTheValley 2021 🏆
  - UniCode 2021
  - Chainlink 2021 🏆
- - Web3 Jam 2021
+ - Web3 Jam 2021 🏆
  - Hackwestern 2021 🏆
- - Chainlink Fall 2021
  
  2022:
 - 
