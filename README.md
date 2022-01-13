@@ -33,7 +33,7 @@
  - Hackwestern 2021 🏆
  
  2022:
-- 
+- local hack day 2022
 - 
   
 ### Connect with me:
