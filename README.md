@@ -34,7 +34,7 @@
  
  2022:
 - local hack day 2022
-- 
+- nft hack 2022
   
 ### Connect with me:
 Email: [apinanapinan@icloud.com](mailto:apinanapinan@icloud.com) <br />
