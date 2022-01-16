@@ -35,7 +35,7 @@
  2022:
 - algorand
 - local hack day 2022
-- nft hack 2022
+- NFTHack 2022
   
 ### Connect with me:
 Email: [apinanapinan@icloud.com](mailto:apinanapinan@icloud.com) <br />
