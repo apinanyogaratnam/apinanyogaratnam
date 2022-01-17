@@ -33,7 +33,7 @@
  - Hackwestern 2021 🏆
  
  2022:
-- algorand
+- Algorand
 - local hack day 2022
 - NFTHack 2022
   
