@@ -34,7 +34,7 @@
  
  2022:
 - Algorand
-- Local hack day 2022
+- Local Hack day 2022
 - NFTHack 2022
   
 ### Connect with me:
