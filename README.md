@@ -22,7 +22,7 @@
 - solidity
 - typescript
 - yaml
-- 
+- docker
   
  ## Hackathons I've attended
  2021:
