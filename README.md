@@ -23,7 +23,7 @@
 - typescript
 - yaml
 - docker
-- 
+- cicd
   
  ## Hackathons I've attended
  2021:
