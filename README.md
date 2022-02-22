@@ -22,7 +22,7 @@
 - solidity <br />
 - typescript <br />
 - yaml <br />
-- docker
+- docker <br />
 - cicd
   
  ## Hackathons I've attended
