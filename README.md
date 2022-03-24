@@ -13,7 +13,7 @@
 - a minor in psychology 🧠
 - My Personal Website 👨🏾‍💻
 - A fullstack web application 🌎
-- a hackathon project 🦠
+- A hackathon project 🦠
 - reading Clean Code by Robert C. Martin 📚
 
 <h3 align="left">Languages and Tools:</h3>
