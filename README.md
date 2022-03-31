@@ -43,7 +43,7 @@
 - Local Hack Day 2022
 - NFTHack 2022 🏆
 - Road to Web3 2022 🏆
-- BuildQuest 2022
+- BuildQuest 2022 
 
 
 https://www.nftport.xyz/community
