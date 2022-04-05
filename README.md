@@ -44,7 +44,7 @@
 - NFTHack 2022 🏆
 - Road to Web3 2022 🏆
 - BuildQuest 2022 🏆
-- dao
+- dao 
 
 
 https://www.nftport.xyz/community
