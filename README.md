@@ -45,7 +45,7 @@
 - BuildQuest 2022 🏆
 - DAO hacks 
 - HackMoney
-- chainlink
+- chainlin
 
 https://www.nftport.xyz/community
 
