@@ -94,7 +94,7 @@ express, figma, git, github, heroku, jest, jira, linux, markdown, node, redis, r
  2021:
  - MacHacks 2021 (Spectator)
  - YuHacks 2021 (Spectator)
- - [HackFS 2021 🏆](https://github.com/wemeta-labs/hackfs-2021)
+ - [HackFS 2021 🏆](https://github.com/apinanyogaratnam/landpeer)
  - EthOnline 2021 🏆
  - HackTheValley 2021 🏆
  - UniCode 2021
