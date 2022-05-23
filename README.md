@@ -83,6 +83,12 @@
 - yaml <br />
 - docker <br />
 - cicd <br />
+
+<!--  
+java, javascript, python, kotlin, c, rust, html, css, sql, solidity, typescript
+github actions, aws, docker, next.js, react.js, postgres, mongodb, springboot, flask, selenium, bash, makefile, cicd
+express, figma, git, github, heroku, jest, jira, linux, markdown, node, redis, redux, ssh
+-->
   
  ## Hackathons I've attended
  2021:
