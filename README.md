@@ -132,4 +132,3 @@ stackoverflow: [apinanyogaratnam](https://stackoverflow.com/users/13776723/apina
 
 Coding since Jan 2019
 
-
