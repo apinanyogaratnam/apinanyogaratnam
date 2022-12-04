@@ -9,6 +9,8 @@ Stack developer
 [View my skyline contribution in 3D](https://skyline.github.com/apinanyogaratnam/2021)
 [Resume](https://drive.google.com/file/d/1RF8Kjd7INjPSKsvQLISNwa2SqWiJCGTQ/view)
 
+[Insights](https://metrics.lecoq.io/insights?user=apinanyogaratnam)
+
 ## Currently working on
 - a major in mathematics 🧮
 - a minor in statistics 📈
