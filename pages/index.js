@@ -97,6 +97,21 @@ const HomePage = () => (
     </div>
 );
 
+const Portfolio = () => (
+  <div style={{
+    backgroundColor: 'green',
+    borderRadius: '20px',
+    marginTop: '15%',
+    height: '90vh',
+    margin: '0 auto',
+    width: '95%',
+    marginBottom: '3%',
+    padding: '10px',
+  }}>
+    <h1 style={{textAlign: 'center'}}>Portfolio</h1>
+  </div>
+);
+
 export default function Home() {
   return (
     <main>
@@ -106,6 +121,7 @@ export default function Home() {
       <div>
         <NavBar />
         <HomePage />
+        <Portfolio />
       </div>
     </main>
   )
