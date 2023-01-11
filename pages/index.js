@@ -2,6 +2,9 @@ import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import { Box, Stack } from '@mui/material';
 import Link from 'next/link';
+import { AiFillGithub, AiFillLinkedin, AiFillTwitterCircle } from 'react-icons/ai';
+import { BsStackOverflow } from 'react-icons/bs';
+import { FiArrowDownCircle } from 'react-icons/fi';
 
 const NavBar = () => (
   <Box>
@@ -68,6 +71,28 @@ const HomePage = () => (
         }}>
         Apinan is a student at the University of Toronto and a full-stack developer based in Toronto, Canada with a passion for building data driven applications. He has a fondness for working across the stack from building the UI of the frontend application to serving API endpoints and querying/aggregating raw data. When not working, he loves making side projects to try out the latest tools and technologies as well as hitting the gym.
         </p>
+      </div>
+      <div style={{
+        margin: '0 auto',
+        width: '40%',
+        marginTop: '15%',
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'space-around',
+      }}>
+        <AiFillGithub size="40px" />
+        <AiFillLinkedin size="40px" />
+        <BsStackOverflow size="40px" />
+        <AiFillTwitterCircle size="40px" />
+      </div>
+      <div style={{
+        margin: '0 auto',
+        marginTop: '5%',
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'center',
+      }}>
+        <FiArrowDownCircle size="40px" />
       </div>
     </div>
 );
