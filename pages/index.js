@@ -97,8 +97,9 @@ const HomePage = () => (
     </div>
 );
 
-const Portfolio = () => (
-  <div style={{
+const Portfolio = () => {
+  const jobs = [{title: 'WeMeta'}];
+  return (<div style={{
     backgroundColor: 'green',
     borderRadius: '20px',
     marginTop: '15%',
@@ -109,8 +110,13 @@ const Portfolio = () => (
     padding: '10px',
   }}>
     <h1 style={{textAlign: 'center'}}>Portfolio</h1>
-  </div>
-);
+    {jobs.map((job, index) => (
+      <div key={index}>
+        {job.title}
+      </div>
+    ))}
+  </div>);
+};
 
 export default function Home() {
   return (
