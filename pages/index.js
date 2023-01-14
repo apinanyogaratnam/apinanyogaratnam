@@ -98,7 +98,7 @@ const HomePage = () => (
 );
 
 const Portfolio = () => {
-  const jobs = [{title: 'WeMeta'}];
+  const jobs = [{title: 'WeMeta', role: 'Software Engineer'}];
   return (<div style={{
     backgroundColor: 'green',
     borderRadius: '20px',
@@ -113,6 +113,7 @@ const Portfolio = () => {
     {jobs.map((job, index) => (
       <div key={index}>
         {job.title}
+        {job.role}
       </div>
     ))}
   </div>);
