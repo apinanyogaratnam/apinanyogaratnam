@@ -98,7 +98,7 @@ const HomePage = () => (
 );
 
 const Portfolio = () => {
-  const jobs = [{title: 'WeMeta', role: 'Software Engineer'}];
+  const jobs = [{title: 'WeMeta', role: 'Software Engineer', date: 'Dec 2021 - Present'}];
   return (<div style={{
     backgroundColor: 'green',
     borderRadius: '20px',
