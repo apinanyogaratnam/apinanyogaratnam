@@ -9,7 +9,7 @@
 [Resume](https://drive.google.com/file/d/1RF8Kjd7INjPSKsvQLISNwa2SqWiJCGTQ/view)
 
 [Insights](https://metrics.lecoq.io/insights?user=apinanyogaratnam)
-[poaps](gitpoap.io/p/0x759ab4af2708c960e490696b7c220c3c36752f49)
+[poaps](https://gitpoap.io/p/0x759ab4af2708c960e490696b7c220c3c36752f49)
 
 ## Currently working on
 - a major in mathematics 🧮
