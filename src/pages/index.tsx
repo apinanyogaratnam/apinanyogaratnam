@@ -62,7 +62,11 @@ const NavBar: React.FC = () => {
 const MainContent: React.FC = () => {
     return (
         <div className="mt-20 flex flex-row items-center justify-center space-x-4">
-            <Image src="/headshot.jpeg" alt="Apinan Yogaratnam" width={400} height={400} />
+            <div className="w-[27%]">
+                <div className="overflow-hidden border-4 border-black dark:border-white">
+                    <img src="/headshot.jpeg" alt="Apinan Yogaratnam" />
+                </div>
+            </div>
             <div className="w-[27%]">
                 <h1 className="text-justify text-6xl font-extrabold text-[hsl(280,100%,70%)]">
                     Bridging Imagination and Reality Through Code
