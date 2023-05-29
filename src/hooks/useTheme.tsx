@@ -8,7 +8,7 @@ export enum Theme {
 
 const useTheme = () => {
     const [hasMounted, setHasMounted] = useState(false);
-    const currentTheme = (Theme.LIGHT) as Theme;
+    const currentTheme = (getLocalStorage('theme') || Theme.LIGHT) as Theme;
     const [theme, setTheme] = useState<Theme>(currentTheme);
     const [oppositeTheme, setOppositeTheme] = useState<Theme>(currentTheme === Theme.LIGHT ? Theme.DARK : Theme.LIGHT);
 
