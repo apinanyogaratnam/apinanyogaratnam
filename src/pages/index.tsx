@@ -62,9 +62,17 @@ const NavBar: React.FC = () => {
 const MainContent: React.FC = () => {
     return (
         <div className="mt-20 flex flex-row items-center justify-center space-x-4">
-            <div className="w-[27%]">
-                <div className="overflow-hidden border-4 border-black dark:border-white">
-                    <img src="/headshot.jpeg" alt="Apinan Yogaratnam" />
+            <div className="relative w-[27%] border-4 border-black dark:border-white" style={{ height: "400px" }}>
+                <div className="h-full overflow-hidden">
+                    <Image
+                        src="/headshot.jpeg"
+                        alt="Apinan Yogaratnam"
+                        fill
+                        className="absolute z-0"
+                        style={{
+                            objectFit: "cover",
+                        }}
+                    />
                 </div>
             </div>
             <div className="w-[27%]">
