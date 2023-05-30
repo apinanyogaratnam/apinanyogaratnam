@@ -78,7 +78,7 @@ const MainContent: React.FC = () => {
                     />
                 </div>
             </div>
-            <div className="w-[35%] flex flex-col justify-between p-2">
+            <div className="flex w-[35%] flex-col justify-between p-2">
                 <h1 className="text-left text-7xl font-extrabold text-[hsl(280,100%,70%)]">
                     Turning Vision Into Reality With Code And Design.
                 </h1>
@@ -97,9 +97,22 @@ const MainContent: React.FC = () => {
                         }
                     >
                         Resume
-                        <span className="transition-colors duration-0">
-                            {/* TODO: use different icons and try */}
-                            <MdOutlineOpenInNew size="1.5em" className="" />
+                        <span className="ml-1 mt-[3px]">
+                            <svg
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-width="2.5"
+                                viewBox="0 0 24 24"
+                                xmlns="http://www.w3.org/2000/svg"
+                                aria-hidden="true"
+                                className="h-5 w-5 text-white dark:text-black"
+                            >
+                                <path
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25"
+                                ></path>
+                            </svg>
                         </span>
                     </button>
                     <button className="mt-2">
