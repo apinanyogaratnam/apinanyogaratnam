@@ -6,7 +6,6 @@ import Image from "next/image";
 import useTheme, { Theme } from "@/hooks/useTheme";
 
 import { RxHamburgerMenu } from "react-icons/rx";
-import { MdOutlineOpenInNew } from "react-icons/md";
 
 const NavBar: React.FC = () => {
     const { theme, toggleTheme, oppositeTheme } = useTheme();
@@ -104,8 +103,6 @@ const MainContent: React.FC = () => {
                     >
                         Resume
                         <span className="transition-colors duration-0">
-                            {/* TODO: use different icons and try */}
-                            <MdOutlineOpenInNew size="1.5em" className="" />
                         </span>
                     </button>
                     <button className="mt-2">
@@ -168,7 +165,7 @@ const Home: NextPage = () => {
                 <meta name="description" content="Apinan Yogaratnam portfolio website" />
                 <link rel="icon" href="/favicon.ico" />
             </Head>
-            <main className="bg-white dark:bg-slate-800">
+            <main className="bg-white dark:bg-slate-950">
                 <div className={`min-h-screen`}>
                     <NavBar />
                     <MainContent />
