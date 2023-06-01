@@ -121,7 +121,7 @@ const Experience: React.FC = () => {
     return (
         <div className="min-h-screen" id="experience">
             <h1 className="text-center text-5xl text-black dark:text-white">Experience</h1>
-            <div className="mt-10 flex flex-row justify-around space-x-4">
+            <div className="mt-10 flex flex-col md:flex-row md:justify-around md:space-x-4">
                 {[{ name: "Ontopical" }, { name: "WeMeta" }, { name: "SAP Fioneer" }].map((company, index) => (
                     <div
                         key={index}
@@ -136,7 +136,7 @@ const Experience: React.FC = () => {
                         </p>
                         <div className="flex flex-row items-center justify-center space-x-4">
                             <button
-                                className="mt-4 flex flex-row rounded-md bg-black px-4 py-2 text-white dark:bg-white dark:text-black"
+                                className="mt-4 flex flex-row rounded-md bg-black px-4 py-2 text-white dark:bg-white dark:text-black hover:bg-white hover:text-black hover:border-black border-2 border-black dark:border-white transition-colors duration-300 dark:hover:bg-black dark:hover:text-white"
                                 onClick={() =>
                                     window.open(
                                         "https://drive.google.com/file/d/12A4kIJ4ebThgixk10x_iJrSWfyiVP0Es/view?usp=sharing",
@@ -147,7 +147,7 @@ const Experience: React.FC = () => {
                                 LinkedIn
                             </button>
                             <button
-                                className="mt-4 flex flex-row rounded-md bg-black px-4 py-2 text-white dark:bg-white dark:text-black"
+                                className="mt-4 flex flex-row rounded-md bg-black px-4 py-2 text-white dark:bg-white dark:text-black hover:bg-white hover:text-black hover:border-black border-2 border-black dark:border-white transition-colors duration-300 dark:hover:bg-black dark:hover:text-white"
                                 onClick={() => window.open("https://ontopical.com", "_blank")}
                             >
                                 Website
