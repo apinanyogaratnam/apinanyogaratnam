@@ -12,7 +12,7 @@ const NavBar: React.FC = () => {
     const { theme, toggleTheme, oppositeTheme } = useTheme();
 
     return (
-        <nav className="flex flex-row items-center justify-around p-5">
+        <nav className="sticky top-0 z-10 flex flex-row items-center justify-around p-5">
             <div className="w-[33%] md:hidden">
                 <RxHamburgerMenu size="1.5em" />
             </div>
@@ -20,7 +20,13 @@ const NavBar: React.FC = () => {
                 <Link href="/">
                     <h1 className="text-black dark:text-white">Home</h1>
                 </Link>
-                <Link href="/experience">
+                <Link
+                    href="#experience"
+                    onClick={(e) => {
+                        e.preventDefault();
+                        document.getElementById("experience")?.scrollIntoView({ behavior: "smooth" });
+                    }}
+                >
                     <h1 className="text-black dark:text-white">Experience</h1>
                 </Link>
                 <Link href="/projects">
@@ -97,28 +103,58 @@ const MainContent: React.FC = () => {
                         }
                     >
                         Resume
-                        <span className="ml-1 mt-[3px]">
-                            <svg
-                                fill="none"
-                                stroke="currentColor"
-                                stroke-width="2.5"
-                                viewBox="0 0 24 24"
-                                xmlns="http://www.w3.org/2000/svg"
-                                aria-hidden="true"
-                                className="h-5 w-5 text-white dark:text-black"
-                            >
-                                <path
-                                    stroke-linecap="round"
-                                    stroke-linejoin="round"
-                                    d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25"
-                                ></path>
-                            </svg>
+                        <span className="transition-colors duration-0">
+                            {/* TODO: use different icons and try */}
+                            <MdOutlineOpenInNew size="1.5em" className="" />
                         </span>
                     </button>
                     <button className="mt-2">
                         <p className="text-black underline dark:text-white">Contact</p>
                     </button>
                 </div>
+            </div>
+        </div>
+    );
+};
+
+const Experience: React.FC = () => {
+    return (
+        <div className="min-h-screen" id="experience">
+            <h1 className="text-center text-5xl text-black dark:text-white">Experience</h1>
+            <div className="mt-10 flex flex-row justify-around space-x-4">
+                {[{ name: "Ontopical" }, { name: "WeMeta" }, { name: "SAP Fioneer" }].map((company, index) => (
+                    <div
+                        key={index}
+                        className="text-center flex w-[30%] flex-col justify-between rounded-lg border-2 border-slate-200 p-2"
+                    >
+                        <h1 className="text-2xl font-bold text-black dark:text-white">{company.name}</h1>
+                        <p className="text-black dark:text-white">Logo goes here</p>
+                        <p className="text-lg text-black dark:text-white">March 2023 - Present</p>
+                        <p className="text-lg text-black dark:text-white">Software Engineer</p>
+                        <p className="text-lg text-black dark:text-white">
+                            Python, React, Typescript, Nextjs, Postgres, Docker, AWS, Elasticsearch
+                        </p>
+                        <div className="flex flex-row items-center justify-center space-x-4">
+                            <button
+                                className="mt-4 flex flex-row rounded-md bg-black px-4 py-2 text-white dark:bg-white dark:text-black"
+                                onClick={() =>
+                                    window.open(
+                                        "https://drive.google.com/file/d/12A4kIJ4ebThgixk10x_iJrSWfyiVP0Es/view?usp=sharing",
+                                        "_blank"
+                                    )
+                                }
+                            >
+                                LinkedIn
+                            </button>
+                            <button
+                                className="mt-4 flex flex-row rounded-md bg-black px-4 py-2 text-white dark:bg-white dark:text-black"
+                                onClick={() => window.open("https://ontopical.com", "_blank")}
+                            >
+                                Website
+                            </button>
+                        </div>
+                    </div>
+                ))}
             </div>
         </div>
     );
@@ -132,11 +168,12 @@ const Home: NextPage = () => {
                 <meta name="description" content="Apinan Yogaratnam portfolio website" />
                 <link rel="icon" href="/favicon.ico" />
             </Head>
-            <main>
-                <div className={`min-h-screen bg-white dark:bg-slate-800`}>
+            <main className="bg-white dark:bg-slate-800">
+                <div className={`min-h-screen`}>
                     <NavBar />
                     <MainContent />
                 </div>
+                <Experience />
             </main>
         </>
     );
