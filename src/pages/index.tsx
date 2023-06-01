@@ -94,7 +94,7 @@ const MainContent: React.FC = () => {
                 </p>
                 <div className="flex flex-row items-center justify-start space-x-4">
                     <button
-                        className="mt-4 flex flex-row rounded-md bg-black px-4 py-2 text-white dark:bg-white dark:text-black"
+                        className="mt-4 flex flex-row rounded-md bg-black px-4 py-2 text-white dark:bg-white dark:text-black hover:bg-white hover:text-black hover:border-black border-2 border-black dark:border-white transition-colors duration-300 dark:hover:bg-black dark:hover:text-white"
                         onClick={() =>
                             window.open(
                                 "https://drive.google.com/file/d/12A4kIJ4ebThgixk10x_iJrSWfyiVP0Es/view?usp=sharing",
