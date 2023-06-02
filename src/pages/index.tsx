@@ -11,7 +11,7 @@ const NavBar: React.FC = () => {
     const { theme, toggleTheme, oppositeTheme } = useTheme();
 
     return (
-        <nav className="sticky top-0 z-10 flex flex-row items-center justify-around p-5">
+        <nav className="flex flex-row items-center justify-around p-5">
             <div className="w-[33%] md:hidden">
                 <RxHamburgerMenu size="1.5em" />
             </div>
@@ -28,10 +28,22 @@ const NavBar: React.FC = () => {
                 >
                     <h1 className="text-black dark:text-white">Experience</h1>
                 </Link>
-                <Link href="/projects">
+                <Link
+                    href="#projects"
+                    onClick={(e) => {
+                        e.preventDefault();
+                        document.getElementById("projects")?.scrollIntoView({ behavior: "smooth" });
+                    }}
+                >
                     <h1 className="text-black dark:text-white">Projects</h1>
                 </Link>
-                <Link href="/about">
+                <Link
+                    href="#about"
+                    onClick={(e) => {
+                        e.preventDefault();
+                        document.getElementById("about")?.scrollIntoView({ behavior: "smooth" });
+                    }}
+                >
                     <h1 className="text-black dark:text-white">About</h1>
                 </Link>
             </div>
@@ -66,48 +78,49 @@ const NavBar: React.FC = () => {
 
 const MainContent: React.FC = () => {
     return (
-        <div className="mt-20 flex flex-row justify-center space-x-4">
-            <div
-                className="relative hidden w-[40%] border-4 border-black dark:border-white md:block"
-                style={{ height: "600px" }}
-            >
-                <div className="h-full overflow-hidden">
-                    <Image
-                        src="/headshot.jpeg"
-                        alt="Apinan Yogaratnam"
-                        fill
-                        // className="absolute z-0"
-                        style={{
-                            objectFit: "cover",
-                        }}
-                    />
+        <div className="min-h-screen">
+            <div className="mt-20 flex flex-row justify-center space-x-4">
+                <div
+                    className="relative hidden w-[40%] border-4 border-black dark:border-white md:block"
+                    style={{ height: "600px" }}
+                >
+                    <div className="h-full overflow-hidden">
+                        <Image
+                            src="/headshot.jpeg"
+                            alt="Apinan Yogaratnam"
+                            fill
+                            // className="absolute z-0"
+                            style={{
+                                objectFit: "cover",
+                            }}
+                        />
+                    </div>
                 </div>
-            </div>
-            <div className="flex w-[35%] flex-col justify-between p-2">
-                <h1 className="text-left text-7xl font-extrabold text-[hsl(280,100%,70%)]">
-                    Turning Vision Into Reality With Code And Design.
-                </h1>
-                <p className="text-xl text-black dark:text-white">
-                    As a skilled full-stack developer, I am dedicated to turning ideas into innovative web applications.
-                    Explore my latest projects, showcasing my expertise in web development.
-                </p>
-                <div className="flex flex-row items-center justify-start space-x-4">
-                    <button
-                        className="mt-4 flex flex-row rounded-md bg-black px-4 py-2 text-white dark:bg-white dark:text-black hover:bg-white hover:text-black hover:border-black border-2 border-black dark:border-white transition-colors duration-300 dark:hover:bg-black dark:hover:text-white"
-                        onClick={() =>
-                            window.open(
-                                "https://drive.google.com/file/d/12A4kIJ4ebThgixk10x_iJrSWfyiVP0Es/view?usp=sharing",
-                                "_blank"
-                            )
-                        }
-                    >
-                        Resume
-                        <span className="transition-colors duration-0">
-                        </span>
-                    </button>
-                    <button className="mt-2">
-                        <p className="text-black underline dark:text-white">Contact</p>
-                    </button>
+                <div className="flex w-[35%] flex-col justify-between p-2">
+                    <h1 className="text-left text-7xl font-extrabold text-[hsl(280,100%,70%)]">
+                        Turning Vision Into Reality With Code And Design.
+                    </h1>
+                    <p className="text-xl text-black dark:text-white">
+                        As a skilled full-stack developer, I am dedicated to turning ideas into innovative web
+                        applications. Explore my latest projects, showcasing my expertise in web development.
+                    </p>
+                    <div className="flex flex-row items-center justify-start space-x-4">
+                        <button
+                            className="mt-4 flex flex-row rounded-md border-2 border-black bg-black px-4 py-2 text-white transition-colors duration-300 hover:border-black hover:bg-white hover:text-black dark:border-white dark:bg-white dark:text-black dark:hover:bg-black dark:hover:text-white"
+                            onClick={() =>
+                                window.open(
+                                    "https://drive.google.com/file/d/12A4kIJ4ebThgixk10x_iJrSWfyiVP0Es/view?usp=sharing",
+                                    "_blank"
+                                )
+                            }
+                        >
+                            Resume
+                            <span className="transition-colors duration-0"></span>
+                        </button>
+                        <button className="mt-2">
+                            <p className="text-black underline dark:text-white">Contact</p>
+                        </button>
+                    </div>
                 </div>
             </div>
         </div>
@@ -122,7 +135,7 @@ const Experience: React.FC = () => {
                 {[{ name: "Ontopical" }, { name: "WeMeta" }, { name: "SAP Fioneer" }].map((company, index) => (
                     <div
                         key={index}
-                        className="text-center flex w-[30%] flex-col justify-between rounded-lg border-2 border-slate-200 p-2"
+                        className="flex w-[30%] flex-col justify-between rounded-lg border-2 border-inherit p-2 text-center"
                     >
                         <h1 className="text-2xl font-bold text-black dark:text-white">{company.name}</h1>
                         <p className="text-black dark:text-white">Logo goes here</p>
@@ -133,7 +146,7 @@ const Experience: React.FC = () => {
                         </p>
                         <div className="flex flex-row items-center justify-center space-x-4">
                             <button
-                                className="mt-4 flex flex-row rounded-md bg-black px-4 py-2 text-white dark:bg-white dark:text-black hover:bg-white hover:text-black hover:border-black border-2 border-black dark:border-white transition-colors duration-300 dark:hover:bg-black dark:hover:text-white"
+                                className="mt-4 flex flex-row rounded-md border-2 border-black bg-black px-4 py-2 text-white transition-colors duration-300 hover:border-black hover:bg-white hover:text-black dark:border-white dark:bg-white dark:text-black dark:hover:bg-black dark:hover:text-white"
                                 onClick={() =>
                                     window.open(
                                         "https://drive.google.com/file/d/12A4kIJ4ebThgixk10x_iJrSWfyiVP0Es/view?usp=sharing",
@@ -144,8 +157,52 @@ const Experience: React.FC = () => {
                                 LinkedIn
                             </button>
                             <button
-                                className="mt-4 flex flex-row rounded-md bg-black px-4 py-2 text-white dark:bg-white dark:text-black hover:bg-white hover:text-black hover:border-black border-2 border-black dark:border-white transition-colors duration-300 dark:hover:bg-black dark:hover:text-white"
+                                className="mt-4 flex flex-row rounded-md border-2 border-black bg-black px-4 py-2 text-white transition-colors duration-300 hover:border-black hover:bg-white hover:text-black dark:border-white dark:bg-white dark:text-black dark:hover:bg-black dark:hover:text-white"
                                 onClick={() => window.open("https://ontopical.com", "_blank")}
+                            >
+                                Website
+                            </button>
+                        </div>
+                    </div>
+                ))}
+            </div>
+        </div>
+    );
+};
+
+const Projects: React.FC = () => {
+    return (
+        <div className="min-h-screen" id="projects">
+            <h1 className="text-center text-5xl text-black dark:text-white">Projects</h1>
+            <div className="mt-10 flex flex-col md:flex-row md:justify-around md:space-x-4">
+                {[{ name: "Ontopical", type: "personal", website: "https://example.com" }, { name: "One Cart Home", type: "freelance", website: "https://one-cart-home-temp.vercel.app" }, { name: "SAP Fioneer", type: "personal", website: "https://example.com" }, {name: "AI3", type: "freelance", website: "https://ai3-client-git-main-ai3coadmin.vercel.app"}].map((company, index) => (
+                    <div
+                        key={index}
+                        className="flex w-[30%] flex-col justify-between rounded-lg border-2 border-inherit p-2 text-center"
+                    >
+                        <h1 className="text-2xl font-bold text-black dark:text-white">{company.name}</h1>
+                        <p className="text-black dark:text-white">Logo goes here</p>
+                        <p className="text-lg text-black dark:text-white">{company.type}</p>
+                        <p className="text-lg text-black dark:text-white">March 2023 - Present</p>
+                        <p className="text-lg text-black dark:text-white">Software Engineer</p>
+                        <p className="text-lg text-black dark:text-white">
+                            Python, React, Typescript, Nextjs, Postgres, Docker, AWS, Elasticsearch
+                        </p>
+                        <div className="flex flex-row items-center justify-center space-x-4">
+                            <button
+                                className="mt-4 flex flex-row rounded-md border-2 border-black bg-black px-4 py-2 text-white transition-colors duration-300 hover:border-black hover:bg-white hover:text-black dark:border-white dark:bg-white dark:text-black dark:hover:bg-black dark:hover:text-white"
+                                onClick={() =>
+                                    window.open(
+                                        "https://drive.google.com/file/d/12A4kIJ4ebThgixk10x_iJrSWfyiVP0Es/view?usp=sharing",
+                                        "_blank"
+                                    )
+                                }
+                            >
+                                GitHub
+                            </button>
+                            <button
+                                className="mt-4 flex flex-row rounded-md border-2 border-black bg-black px-4 py-2 text-white transition-colors duration-300 hover:border-black hover:bg-white hover:text-black dark:border-white dark:bg-white dark:text-black dark:hover:bg-black dark:hover:text-white"
+                                onClick={() => window.open(company.website, "_blank")}
                             >
                                 Website
                             </button>
@@ -166,11 +223,10 @@ const Home: NextPage = () => {
                 <link rel="icon" href="/favicon.ico" />
             </Head>
             <main className="bg-white dark:bg-slate-950">
-                <div className={`min-h-screen`}>
-                    <NavBar />
-                    <MainContent />
-                </div>
+                <NavBar />
+                <MainContent />
                 <Experience />
+                <Projects />
             </main>
         </>
     );
