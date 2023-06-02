@@ -139,7 +139,7 @@ const Experience: React.FC = () => {
                     >
                         <h1 className="text-2xl font-bold text-black dark:text-white">{company.name}</h1>
                         <p className="text-black dark:text-white">Logo goes here</p>
-                        <p className="text-lg text-black dark:text-white">March 2023 - Present</p>
+                        <p className="text-lg text-black dark:text-white">Feb 2023 - Present</p>
                         <p className="text-lg text-black dark:text-white">Software Engineer</p>
                         <p className="text-lg text-black dark:text-white">
                             Python, React, Typescript, Nextjs, Postgres, Docker, AWS, Elasticsearch
