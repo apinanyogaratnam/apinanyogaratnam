@@ -250,7 +250,7 @@ const About = () => {
             </div>
             <div>
                 <p className="text-center text-lg text-black dark:text-white">
-                    Here are a few technologies I've been working with recently:
+                    {`Here are a few technologies I've been working with recently:`}
                 </p>
                 <div className="flex flex-row justify-center space-x-4">
                     {["Python", "React", "Nextjs", "Typescript", "Postgres", "Docker", "AWS", "Elasticsearch"].map(
