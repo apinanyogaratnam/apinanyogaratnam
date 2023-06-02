@@ -16,6 +16,7 @@ specifiers:
   '@types/react-dom': ^18.0.11
   '@typescript-eslint/eslint-plugin': ^5.56.0
   '@typescript-eslint/parser': ^5.56.0
+  '@vercel/analytics': ^1.0.1
   autoprefixer: ^10.4.14
   eslint: ^8.36.0
   eslint-config-next: ^13.4.1
@@ -42,6 +43,7 @@ dependencies:
   '@trpc/next': 10.29.0_xpivzetl7vyi4ied5xy42oyrfi
   '@trpc/react-query': 10.29.0_pxn4ovs6vqtmzupydsttaeesw4
   '@trpc/server': 10.29.0
+  '@vercel/analytics': 1.0.1
   next: 13.4.4_biqbaboplfbrettd7655fr4n2y
   next-auth: 4.22.1_z4pol2qj2yv3um3jqqobs4b3eu
   react: 18.2.0
@@ -612,6 +614,10 @@ packages:
       '@typescript-eslint/types': 5.59.8
       eslint-visitor-keys: 3.4.1
     dev: true
+
+  /@vercel/analytics/1.0.1:
+    resolution: {integrity: sha512-Ux0c9qUfkcPqng3vrR0GTrlQdqNJ2JREn/2ydrVuKwM3RtMfF2mWX31Ijqo1opSjNAq6rK76PwtANw6kl6TAow==}
+    dev: false
 
   /acorn-jsx/5.3.2_acorn@8.8.2:
     resolution: {integrity: sha512-rq9s+JNhf0IChjtDXxllJ7g41oZk5SlXtp0LHwyA5cejwn7vKmKp4pPri6YEePv2PU65sAsegbXtIinmDFDXgQ==}
