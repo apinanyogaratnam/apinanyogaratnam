@@ -175,7 +175,7 @@ const Projects: React.FC = () => {
         <div className="min-h-screen" id="projects">
             <h1 className="text-center text-5xl text-black dark:text-white">Projects</h1>
             <div className="mt-10 flex flex-col md:flex-row md:justify-around md:space-x-4">
-                {[{ name: "Ontopical", type: "personal", website: "https://example.com" }, { name: "One Cart Home", type: "freelance", website: "https://one-cart-home-temp.vercel.app" }, { name: "SAP Fioneer", type: "personal", website: "https://example.com" }, {name: "AI3", type: "freelance", website: "https://ai3-client-git-main-ai3coadmin.vercel.app"}].map((company, index) => (
+                {[{ name: "Ontopical", type: "personal", website: "https://example.com" }, { name: "One Cart Home", type: "freelance", website: "https://example.com" }, { name: "SAP Fioneer", type: "personal", website: "https://example.com" }, {name: "AI3", type: "freelance", website: "https://ai3-client-git-main-ai3coadmin.vercel.app"}].map((company, index) => (
                     <div
                         key={index}
                         className="flex w-[30%] flex-col justify-between rounded-lg border-2 border-inherit p-2 text-center"
