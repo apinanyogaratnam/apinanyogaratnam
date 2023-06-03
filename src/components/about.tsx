@@ -33,7 +33,7 @@ const About = () => {
                     <p className="text-center text-lg text-black dark:text-white">
                         {`Here are a few technologies I've been working with recently:`}
                     </p>
-                    <div className="mt-2 flex flex-row justify-center space-x-4">
+                    <div className="mt-2 flex flex-row justify-center space-x-4 overflow-y-scroll">
                         {["Python", "React", "Nextjs", "Typescript", "Postgres", "Docker", "AWS", "Elasticsearch"].map(
                             (tech, index) => (
                                 <div
@@ -54,7 +54,7 @@ const About = () => {
                         {`Hackathons are my thing. I love building things from scratch and learning new technologies.
                     Here are the hackathons I've participated in:`}
                     </p>
-                    <div className="flex flex-row justify-center space-x-4">
+                    <div className="flex flex-row justify-center space-x-4 overflow-y-scroll">
                         {[
                             {
                                 name: "MacHacks",

@@ -2,7 +2,7 @@ const Projects: React.FC = () => {
     return (
         <div className="min-h-screen" id="projects">
             <h1 className="text-center text-5xl text-black dark:text-white">Projects</h1>
-            <div className="mt-10 flex flex-col md:flex-row md:justify-around md:space-x-4">
+            <div className="mt-10 flex flex-col md:flex-row md:justify-around md:space-x-4 overflow-y-scroll">
                 {[
                     { name: "Ontopical", type: "personal", website: "https://example.com" },
                     { name: "One Cart Home", type: "freelance", website: "https://example.com" },

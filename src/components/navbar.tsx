@@ -18,7 +18,7 @@ const NavBar = (props: IProps) => {
 
     return (
         <nav className="flex flex-row items-center justify-around p-2">
-            <div className="w-[33%] md:hidden">
+            <div className="w-[33%] md:hidden text-black dark:text-white">
                 <RxHamburgerMenu size="1.5em" />
             </div>
             <div className="hidden w-[33%] flex-row items-center justify-around md:flex">
