@@ -63,6 +63,7 @@ const NavBar = (props: IProps) => {
                             href="https://www.linkedin.com/in/apinanyogaratnam"
                             target="_blank"
                             rel="noopener noreferrer"
+                            aria-label="LinkedIn"
                         >
                             <AiFillLinkedin size="1.5em" className="h-8 w-8 rounded-full bg-blue-500 p-1" />
                         </Link>
@@ -71,17 +72,23 @@ const NavBar = (props: IProps) => {
                             href="https://stackoverflow.com/users/13776723/apinanyogaratnam"
                             target="_blank"
                             rel="noopener noreferrer"
+                            aria-label="Stack Overflow"
                         >
                             <FaStackOverflow size="1.5em" className="" />
                         </Link>
                         <Link href="https://twitter.com/apiyogaratnam" target="_blank" rel="noopener noreferrer">
-                            <FiTwitter size="1.5em" className="h-8 w-8 rounded-full bg-blue-400 p-1" />
+                            <FiTwitter
+size="1.5em"
+                               className="h-8 w-8 rounded-full bg-blue-400 p-1"
+                                aria-label="Twitter"
+                            />
                         </Link>
                         <Link
                             href="https://github.com/apinanyogaratnam"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="rounded-full bg-black text-white dark:bg-white dark:text-black"
+                            aria-label="GitHub"
                         >
                             <AiFillGithub size="1.5em" className="h-8 w-8 rounded-full p-1" />
                         </Link>
