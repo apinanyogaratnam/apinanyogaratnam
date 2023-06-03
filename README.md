@@ -1,6 +1,7 @@
 # 👋 Hi there, I'm Api
 
 ## I'm a student at UofT & a Full Stack developer
+
 ![Apinan's GitHub stats](https://github-readme-stats.vercel.app/api?username=apinanyogaratnam&show_icons=true&theme=great-gatsby&border_radius=12&bg_color=135,222223,000000&hide_border=true)
 [![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=apinanyogaratnam&hide_border=true)](https://git.io/streak-stats)
 
@@ -10,15 +11,17 @@
 [Insights](https://metrics.lecoq.io/insights?user=apinanyogaratnam)
 
 ## Currently working on
-- a major in mathematics 🧮
-- a minor in statistics 📈
-- a minor in psychology 🧠
-- My Personal Website 👨🏾‍💻
-- A fullstack web application 🌎
-- A hackathon project 🦠
-- reading Clean Code by Robert C. Martin 📚
+
+-   a major in mathematics 🧮
+-   a minor in statistics 📈
+-   a minor in psychology 🧠
+-   My Personal Website 👨🏾‍💻
+-   A fullstack web application 🌎
+-   A hackathon project 🦠
+-   reading Clean Code by Robert C. Martin 📚
 
 ## Request a project to freelance:
+
 [Freelance](https://contra.com/apinan_yogaratnam_b46yt2k1)
 
 [calendar](https://calendly.com/apinanyogaratnam)
@@ -88,44 +91,47 @@
   </a> 
 </p>
 
-- solidity <br />
-- typescript <br />
-- yaml <br />
-- docker <br />
-- cicd <br />
+-   solidity <br />
+-   typescript <br />
+-   yaml <br />
+-   docker <br />
+-   cicd <br />
 
-<!--  
+<!--
 java, javascript, python, kotlin, c, rust, html, css, sql, solidity, typescript
 github actions, aws, docker, next.js, react.js, postgres, mongodb, springboot, flask, selenium, bash, makefile, cicd
 express, figma, git, github, heroku, jest, jira, linux, markdown, node, redis, redux, ssh
 -->
-  
- ## Hackathons I've attended
- 2021:
- - MacHacks 2021 (Spectator)
- - YuHacks 2021 (Spectator)
- - [HackFS 2021 🏆](https://github.com/apinanyogaratnam/landpeer)
- - EthOnline 2021 🏆
- - HackTheValley 2021 🏆
- - UniCode 2021
- - Chainlink 2021 🏆
- - Web3 Jam 2021 🏆
- - Hackwestern 2021 🏆
- 
- 2022:
-- Algorand
-- Local Hack Day 2022
-- NFTHack 2022 🏆
-- Road to Web3 2022 🏆
-- BuildQuest 2022 🏆
-- DAO hacks 
-- HackMoney
-- Chainlink
+
+## Hackathons I've attended
+
+2021:
+
+-   MacHacks 2021 (Spectator)
+-   YuHacks 2021 (Spectator)
+-   [HackFS 2021 🏆](https://github.com/apinanyogaratnam/landpeer)
+-   EthOnline 2021 🏆
+-   HackTheValley 2021 🏆
+-   UniCode 2021
+-   Chainlink 2021 🏆
+-   Web3 Jam 2021 🏆
+-   Hackwestern 2021 🏆
+
+2022:
+
+-   Algorand
+-   Local Hack Day 2022
+-   NFTHack 2022 🏆
+-   Road to Web3 2022 🏆
+-   BuildQuest 2022 🏆
+-   DAO hacks
+-   HackMoney
+-   Chainlink
 
 https://www.nftport.xyz/community
 
-
 ### Connect with me:
+
 Email: [apinanapinan@icloud.com](mailto:apinanapinan@icloud.com) <br />
 Devpost: [apinanyogaratnam](https://devpost.com/apinanyogaratnam) <br />
 Instagram: [apinanyogaratnam](https://www.instagram.com/apinanyogaratnam) <br />
@@ -135,6 +141,7 @@ Website: https://apinanyogaratnam.github.io/my-personal-website-v2.0 <br />
 gists: [apinanyogaratnam](https://gist.github.com/apinanyogaratnam) <br />
 replit: [stewietheangel](https://replit.com/@stewietheangel) <br />
 stackoverflow: [apinanyogaratnam](https://stackoverflow.com/users/13776723/apinanyogaratnam)<br />
+
 <!-- fiverr: [apiyogaratnam](https://www.fiverr.com/s2/4513ceee7a) <br /> -->
 <!-- Discord: stewietheangel#6223 -->
 

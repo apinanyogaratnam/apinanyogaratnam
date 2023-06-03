@@ -5,6 +5,7 @@
         "NEXTAUTH",
         "nextjs",
         "Ontopical",
+        "superjson",
         "TRPC"
     ]
 }
