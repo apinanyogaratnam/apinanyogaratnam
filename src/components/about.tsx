@@ -15,7 +15,7 @@ const About = () => {
                         {`I'm currently studying at the`}{" "}
                         <a
                             className="text-black dark:text-white"
-                            href="https://www.ryerson.ca/"
+                            href="https://www.utoronto.ca"
                             target="_blank"
                             rel="noopener noreferrer"
                         >
