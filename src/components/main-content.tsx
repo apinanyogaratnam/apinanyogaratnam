@@ -17,6 +17,7 @@ const MainContent: React.FC = () => {
                             style={{
                                 objectFit: "cover",
                             }}
+                            loading="eager"
                         />
                     </div>
                 </div>
