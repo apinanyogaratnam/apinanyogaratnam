@@ -3,7 +3,7 @@ import Link from "next/link";
 interface IProps {
     href: string;
     title: string;
-    onClick: (e?: unknown) => void;
+    onClick: (e: React.MouseEvent<HTMLDivElement, MouseEvent>) => void;
 }
 
 const CustomLink = (props: IProps) => {

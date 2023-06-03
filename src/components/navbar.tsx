@@ -26,7 +26,7 @@ const NavBar = (props: IProps) => {
                 <CustomLink
                     href="#experience"
                     title="Experience"
-                    onClick={(e) => {
+                    onClick={(e: React.MouseEvent<HTMLDivElement, MouseEvent>) => {
                         e.preventDefault();
                         document.getElementById("experience")?.scrollIntoView({ behavior: "smooth" });
                         setCurrentSection(1);
@@ -35,7 +35,7 @@ const NavBar = (props: IProps) => {
                 <CustomLink
                     href="#projects"
                     title="Projects"
-                    onClick={(e) => {
+                    onClick={(e: React.MouseEvent<HTMLDivElement, MouseEvent>) => {
                         e.preventDefault();
                         document.getElementById("projects")?.scrollIntoView({ behavior: "smooth" });
                         setCurrentSection(2);
@@ -44,7 +44,7 @@ const NavBar = (props: IProps) => {
                 <CustomLink
                     href="#about"
                     title="About"
-                    onClick={(e) => {
+                    onClick={(e: React.MouseEvent<HTMLDivElement, MouseEvent>) => {
                         e.preventDefault();
                         document.getElementById("about")?.scrollIntoView({ behavior: "smooth" });
                         setCurrentSection(3);
