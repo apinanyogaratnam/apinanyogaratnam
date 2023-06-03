@@ -6,6 +6,8 @@ import { RxHamburgerMenu } from "react-icons/rx";
 
 import useTheme, { Theme } from "@/hooks/useTheme";
 
+import CustomLink from "./custom-link";
+
 interface IProps {
     setCurrentSection: (section: number) => void;
 }
@@ -20,39 +22,34 @@ const NavBar = (props: IProps) => {
                 <RxHamburgerMenu size="1.5em" />
             </div>
             <div className="hidden w-[33%] flex-row items-center justify-around md:flex">
-                <Link href="/" onClick={() => setCurrentSection(0)}>
-                    <h1 className="text-black dark:text-white">Home</h1>
-                </Link>
-                <Link
+                <CustomLink href="/" title="Home" onClick={() => setCurrentSection(0)} />
+                <CustomLink
                     href="#experience"
+                    title="Experience"
                     onClick={(e) => {
                         e.preventDefault();
                         document.getElementById("experience")?.scrollIntoView({ behavior: "smooth" });
                         setCurrentSection(1);
                     }}
-                >
-                    <h1 className="text-black dark:text-white">Experience</h1>
-                </Link>
-                <Link
+                />
+                <CustomLink
                     href="#projects"
+                    title="Projects"
                     onClick={(e) => {
                         e.preventDefault();
                         document.getElementById("projects")?.scrollIntoView({ behavior: "smooth" });
                         setCurrentSection(2);
                     }}
-                >
-                    <h1 className="text-black dark:text-white">Projects</h1>
-                </Link>
-                <Link
+                />
+                <CustomLink
                     href="#about"
+                    title="About"
                     onClick={(e) => {
                         e.preventDefault();
                         document.getElementById("about")?.scrollIntoView({ behavior: "smooth" });
                         setCurrentSection(3);
                     }}
-                >
-                    <h1 className="text-black dark:text-white">About</h1>
-                </Link>
+                />
             </div>
             <div className="flex w-[33%] items-center justify-center">
                 <div className="flex h-10 w-24 items-center justify-center rounded-full bg-black text-white dark:bg-white dark:text-black">
