@@ -116,6 +116,7 @@ express, figma, git, github, heroku, jest, jira, linux, markdown, node, redis, r
 -   Chainlink 2021 🏆
 -   Web3 Jam 2021 🏆
 -   Hackwestern 2021 🏆
+- Nervos 2021
 
 2022:
 
