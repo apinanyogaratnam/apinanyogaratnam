@@ -77,8 +77,11 @@ const NavBar = (props: IProps) => {
                         <Link href="https://twitter.com/apiyogaratnam" target="_blank" rel="noopener noreferrer">
                             <FiTwitter size="1.5em" className="h-8 w-8 rounded-full bg-blue-400 p-1" />
                         </Link>
-                        <Link href="https://github.com/apinanyogaratnam" target="_blank" rel="noopener noreferrer"
-                            className="text-white bg-black rounded-full dark:bg-white dark:text-black"
+                        <Link
+                            href="https://github.com/apinanyogaratnam"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="rounded-full bg-black text-white dark:bg-white dark:text-black"
                         >
                             <AiFillGithub size="1.5em" className="h-8 w-8 rounded-full p-1" />
                         </Link>
