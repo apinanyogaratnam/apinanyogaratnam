@@ -145,7 +145,7 @@ const About = () => {
                                 github: "https://github.com/Doctorize-AI",
                                 youtube: "https://www.youtube.com/watch?v=0aETKPnn_hg",
                                 wonPrize: true,
-                            }
+                            },
                         ].map((hackathon, index) => (
                             <div
                                 key={index}
