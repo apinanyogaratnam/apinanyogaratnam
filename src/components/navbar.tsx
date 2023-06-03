@@ -1,6 +1,5 @@
 import Link from "next/link";
 import { AiFillLinkedin, AiFillGithub } from "react-icons/ai";
-import { BsStackOverflow } from "react-icons/bs";
 import { FaStackOverflow } from "react-icons/fa";
 import { FiTwitter } from "react-icons/fi";
 import { RxHamburgerMenu } from "react-icons/rx";
@@ -9,9 +8,9 @@ import useTheme, { Theme } from "@/hooks/useTheme";
 
 interface IProps {
     setCurrentSection: (section: number) => void;
-};
+}
 
-const NavBar: React.FC = (props: IProps) => {
+const NavBar = (props: IProps) => {
     const { theme, toggleTheme, oppositeTheme } = useTheme();
     const { setCurrentSection } = props;
 

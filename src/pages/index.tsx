@@ -9,17 +9,6 @@ import MainContent from "@/components/main-content";
 import NavBar from "@/components/navbar";
 import Projects from "@/components/projects";
 
-const scrollToElement = (elementId: string) => {
-    const element = document.getElementById(elementId);
-
-    if (element) {
-        const elementPosition = element.getBoundingClientRect().top + window.pageYOffset;
-
-        // Scroll smoothly to the element
-        window.scrollTo({ top: elementPosition, behavior: "smooth" });
-    }
-};
-
 const Home: NextPage = () => {
     const [currentSection, setCurrentSection] = useState(0);
     const sectionIds = ["main-content", "experience", "projects", "about"];
