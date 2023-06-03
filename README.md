@@ -116,7 +116,7 @@ express, figma, git, github, heroku, jest, jira, linux, markdown, node, redis, r
 -   Chainlink 2021 🏆
 -   Web3 Jam 2021 🏆
 -   Hackwestern 2021 🏆
-- Nervos 2021
+-   Nervos 2021
 
 2022:
 
@@ -128,9 +128,9 @@ express, figma, git, github, heroku, jest, jira, linux, markdown, node, redis, r
 -   DAO hacks
 -   HackMoney
 -   Chainlink
-- HackFS 2022
-- Metabolism
-- ETHOnline 2022
+-   HackFS 2022
+-   Metabolism
+-   ETHOnline 2022
 
 https://www.nftport.xyz/community
 
