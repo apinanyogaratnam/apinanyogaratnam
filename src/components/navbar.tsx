@@ -74,11 +74,13 @@ const NavBar = (props: IProps) => {
                         >
                             <FaStackOverflow size="1.5em" className="" />
                         </Link>
-                        <Link href="https://twitter.com/apiyogaratnam">
+                        <Link href="https://twitter.com/apiyogaratnam" target="_blank" rel="noopener noreferrer">
                             <FiTwitter size="1.5em" className="h-8 w-8 rounded-full bg-blue-400 p-1" />
                         </Link>
-                        <Link href="https://github.com/apinanyogaratnam">
-                            <AiFillGithub size="1.5em" className="h-8 w-8 rounded-full bg-black p-1" />
+                        <Link href="https://github.com/apinanyogaratnam" target="_blank" rel="noopener noreferrer"
+                            className="text-white bg-black rounded-full dark:bg-white dark:text-black"
+                        >
+                            <AiFillGithub size="1.5em" className="h-8 w-8 rounded-full p-1" />
                         </Link>
                     </div>
                     <div className="ml-2 mt-2">
