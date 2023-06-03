@@ -127,6 +127,9 @@ express, figma, git, github, heroku, jest, jira, linux, markdown, node, redis, r
 -   DAO hacks
 -   HackMoney
 -   Chainlink
+- HackFS 2022
+- Metabolism
+- ETHOnline 2022
 
 https://www.nftport.xyz/community
 
