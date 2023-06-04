@@ -18,7 +18,7 @@ const NavBar = (props: IProps) => {
 
     return (
         <nav className="flex flex-row items-center justify-around p-2">
-            <div className="w-[33%] md:hidden text-black dark:text-white">
+            <div className="w-[33%] text-black dark:text-white md:hidden">
                 <RxHamburgerMenu size="1.5em" />
             </div>
             <div className="hidden w-[33%] flex-row items-center justify-around md:flex">
@@ -78,8 +78,8 @@ const NavBar = (props: IProps) => {
                         </Link>
                         <Link href="https://twitter.com/apiyogaratnam" target="_blank" rel="noopener noreferrer">
                             <FiTwitter
-size="1.5em"
-                               className="h-8 w-8 rounded-full bg-blue-400 p-1"
+                                size="1.5em"
+                                className="h-8 w-8 rounded-full bg-blue-400 p-1"
                                 aria-label="Twitter"
                             />
                         </Link>

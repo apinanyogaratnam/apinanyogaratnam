@@ -3,7 +3,7 @@ import Image from "next/image";
 const MainContent: React.FC = () => {
     return (
         <div className="min-h-screen">
-            <div className="mt-10 flex flex-col justify-center items-center md:space-x-4 md:flex-row md:mt-20">
+            <div className="mt-10 flex flex-col items-center justify-center md:mt-20 md:flex-row md:space-x-4">
                 <div className="relative h-40 w-40 overflow-hidden rounded-full border-4 border-black dark:border-white md:h-[600px] md:w-[34%] md:rounded-none">
                     <Image
                         src="/headshot.jpeg"
@@ -15,7 +15,7 @@ const MainContent: React.FC = () => {
                         }}
                     />
                 </div>
-                <div className="flex w-full h-full flex-col justify-between p-2 md:w-[35%] md:h-[550px]">
+                <div className="flex h-full w-full flex-col justify-between p-2 md:h-[550px] md:w-[35%]">
                     <h1 className="text-left text-center text-3xl font-extrabold text-[hsl(280,100%,70%)] md:text-left md:text-5xl lg:text-7xl">
                         Turning Vision Into Reality With Code And Design.
                     </h1>
