@@ -68,13 +68,13 @@ const Experience: React.FC = () => {
                             {company.start} - {company.end}
                         </p>
                         <p className="text-lg text-black dark:text-white">{company.position}</p>
-                        <p className="flex flex-row text-lg text-black dark:text-white">
+                        <div className="flex flex-row text-lg text-black dark:text-white">
                             {company.technologies.map((technology: Technologies, index: number) => (
                                 <div className="p-1" key={index}>
                                     <span className="text-black dark:text-white">{TechnologyLogos[technology]}</span>
                                 </div>
                             ))}
-                        </p>
+                        </div>
                         <div className="flex flex-row items-center justify-center space-x-4">
                             <Button
                                 label="LinkedIn"
