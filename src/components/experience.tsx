@@ -5,7 +5,7 @@ const Experience: React.FC = () => {
     return (
         <div className="min-h-screen" id="experience">
             <h1 className="text-center text-5xl text-black dark:text-white">Experience</h1>
-            <div className="mt-10 flex flex-col md:flex-row md:justify-around md:space-x-4">
+            <div className="mt-10 flex flex-col md:flex-row items-center space-y-4 md:justify-around md:space-x-4 md:space-y-0">
                 {[
                     {
                         name: "Ontopical",
