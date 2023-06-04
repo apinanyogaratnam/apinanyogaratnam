@@ -1,3 +1,5 @@
+import { Button } from "@/components";
+
 const Projects: React.FC = () => {
     return (
         <div className="min-h-screen" id="projects">
@@ -20,23 +22,16 @@ const Projects: React.FC = () => {
                                 Python, React, Typescript, Nextjs, Postgres, Docker, AWS, Elasticsearch
                             </p>
                             <div className="flex flex-row items-center justify-center space-x-4">
-                                <button
-                                    className="mt-4 flex flex-row rounded-md border-2 border-black bg-black px-4 py-2 text-white transition-colors duration-300 hover:border-black hover:bg-white hover:text-black dark:border-white dark:bg-white dark:text-black dark:hover:bg-black dark:hover:text-white"
+                                <Button
+                                    label="GitHub"
                                     onClick={() =>
                                         window.open(
                                             "https://drive.google.com/file/d/12A4kIJ4ebThgixk10x_iJrSWfyiVP0Es/view?usp=sharing",
                                             "_blank"
                                         )
                                     }
-                                >
-                                    GitHub
-                                </button>
-                                <button
-                                    className="mt-4 flex flex-row rounded-md border-2 border-black bg-black px-4 py-2 text-white transition-colors duration-300 hover:border-black hover:bg-white hover:text-black dark:border-white dark:bg-white dark:text-black dark:hover:bg-black dark:hover:text-white"
-                                    onClick={() => window.open(company.website, "_blank")}
-                                >
-                                    Website
-                                </button>
+                                />
+                                <Button label="Website" onClick={() => window.open(company.website, "_blank")} />
                             </div>
                         </div>
                     </div>

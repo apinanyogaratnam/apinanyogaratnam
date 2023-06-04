@@ -6,7 +6,7 @@ import { FaStackOverflow } from "react-icons/fa";
 import { FiTwitter } from "react-icons/fi";
 import { RxHamburgerMenu } from "react-icons/rx";
 
-import CustomLink from "@/components/custom-link";
+import { CustomLink } from "@/components";
 import useTheme, { Theme } from "@/hooks/useTheme";
 
 const HamburgerMenu = dynamic(() => import("@/components/hamburger-menu"), { ssr: false });

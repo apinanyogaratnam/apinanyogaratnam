@@ -1,4 +1,4 @@
-import { technologyLogos } from "@/components/logo";
+import { TechnologyLogos, Button } from "@/components";
 import { Technologies } from "@/constants/technologies";
 
 const Experience: React.FC = () => {
@@ -71,28 +71,21 @@ const Experience: React.FC = () => {
                         <p className="flex flex-row text-lg text-black dark:text-white">
                             {company.technologies.map((technology: Technologies, index: number) => (
                                 <div className="p-1" key={index}>
-                                    <span className="text-black dark:text-white">{technologyLogos[technology]}</span>
+                                    <span className="text-black dark:text-white">{TechnologyLogos[technology]}</span>
                                 </div>
                             ))}
                         </p>
                         <div className="flex flex-row items-center justify-center space-x-4">
-                            <button
-                                className="mt-4 flex flex-row rounded-md border-2 border-black bg-black px-4 py-2 text-white transition-colors duration-300 hover:border-black hover:bg-white hover:text-black dark:border-white dark:bg-white dark:text-black dark:hover:bg-black dark:hover:text-white"
+                            <Button
+                                label="LinkedIn"
                                 onClick={() =>
                                     window.open(
                                         "https://drive.google.com/file/d/12A4kIJ4ebThgixk10x_iJrSWfyiVP0Es/view?usp=sharing",
                                         "_blank"
                                     )
                                 }
-                            >
-                                LinkedIn
-                            </button>
-                            <button
-                                className="mt-4 flex flex-row rounded-md border-2 border-black bg-black px-4 py-2 text-white transition-colors duration-300 hover:border-black hover:bg-white hover:text-black dark:border-white dark:bg-white dark:text-black dark:hover:bg-black dark:hover:text-white"
-                                onClick={() => window.open("https://ontopical.com", "_blank")}
-                            >
-                                Website
-                            </button>
+                            />
+                            <Button label="Website" onClick={() => window.open("https://ontopical.com", "_blank")} />
                         </div>
                     </div>
                 ))}

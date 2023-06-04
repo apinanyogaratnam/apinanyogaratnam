@@ -19,7 +19,7 @@ import { TbBrandNextjs } from "react-icons/tb";
 
 import { Technologies } from "@/constants/technologies";
 
-export const technologyLogos: { [key in Technologies]?: JSX.Element } = {
+const TechnologyLogos: { [key in Technologies]?: JSX.Element } = {
     [Technologies.REACT]: <FaReact />,
     [Technologies.PYTHON]: <FaPython />,
     [Technologies.JAVA]: <FaJava />,
@@ -45,3 +45,5 @@ export const technologyLogos: { [key in Technologies]?: JSX.Element } = {
     [Technologies.KAFKA]: <SiApachekafka />,
     [Technologies.KOTLIN]: <SiKotlin />,
 };
+
+export default TechnologyLogos;

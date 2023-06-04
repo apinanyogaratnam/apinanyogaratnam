@@ -3,11 +3,7 @@ import Head from "next/head";
 import { useState } from "react";
 import { BsArrowDownCircle, BsArrowUpCircle } from "react-icons/bs";
 
-import About from "@/components/about";
-import Experience from "@/components/experience";
-import MainContent from "@/components/main-content";
-import NavBar from "@/components/navbar";
-import Projects from "@/components/projects";
+import { About, Experience, MainContent, NavBar, Projects } from "@/components";
 
 const Home: NextPage = () => {
     const [currentSection, setCurrentSection] = useState(0);
