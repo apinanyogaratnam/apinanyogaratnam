@@ -14,7 +14,7 @@ interface IProps {
 }
 
 const Card = (props: IProps) => {
-    const { company, children } = props;
+    const { company } = props;
 
     return (
         <div className="flex w-[30%] flex-col justify-between rounded-lg border-2 border-inherit p-2 text-center">
