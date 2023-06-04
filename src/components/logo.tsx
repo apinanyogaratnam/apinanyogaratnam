@@ -14,6 +14,7 @@ import {
     SiKotlin,
     SiSpring,
     SiPostgresql,
+    SiFlask,
 } from "react-icons/si";
 import { TbBrandNextjs } from "react-icons/tb";
 
@@ -32,8 +33,8 @@ const TechnologyLogos: { [key in Technologies]?: JSX.Element } = {
     [Technologies.NODEJS]: <FaNodeJs />,
     [Technologies.EXPRESS]: <SiExpress />,
     [Technologies.MONGODB]: <SiMongodb />,
-    [Technologies.POSTGRESQL]: <FaReact />,
-    [Technologies.FLASK]: <SiPostgresql />,
+    [Technologies.POSTGRESQL]: <SiPostgresql />,
+    [Technologies.FLASK]: <SiFlask />,
     [Technologies.SPRING]: <SiSpring />,
     [Technologies.AWS]: <FaAws />,
     [Technologies.DOCKER]: <FaDocker />,
