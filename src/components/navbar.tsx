@@ -1,12 +1,15 @@
+import dynamic from "next/dynamic";
 import Link from "next/link";
-import { AiFillLinkedin, AiFillGithub } from "react-icons/ai";
+import { useState } from "react";
+import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 import { FaStackOverflow } from "react-icons/fa";
 import { FiTwitter } from "react-icons/fi";
 import { RxHamburgerMenu } from "react-icons/rx";
 
+import CustomLink from "@/components/custom-link";
 import useTheme, { Theme } from "@/hooks/useTheme";
 
-import CustomLink from "./custom-link";
+const HamburgerMenu = dynamic(() => import("@/components/hamburger-menu"), { ssr: false });
 
 interface IProps {
     setCurrentSection: (section: number) => void;
@@ -15,12 +18,19 @@ interface IProps {
 const NavBar = (props: IProps) => {
     const { theme, toggleTheme, oppositeTheme } = useTheme();
     const { setCurrentSection } = props;
+    const [isMenuOpen, setIsMenuOpen] = useState(false);
 
     return (
         <nav className="flex flex-row items-center justify-around p-2">
-            <div className="w-[33%] text-black dark:text-white md:hidden">
+            <div
+                className="w-[33%] text-black dark:text-white md:hidden"
+                onClick={() => {
+                    setIsMenuOpen(!isMenuOpen);
+                }}
+            >
                 <RxHamburgerMenu size="1.5em" />
             </div>
+            {isMenuOpen && <HamburgerMenu setIsMenuOpen={setIsMenuOpen} />}
             <div className="hidden w-[33%] flex-row items-center justify-around md:flex">
                 <CustomLink href="/" title="Home" onClick={() => setCurrentSection(0)} />
                 <CustomLink
