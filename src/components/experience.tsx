@@ -5,7 +5,7 @@ const Experience: React.FC = () => {
     return (
         <div className="min-h-screen" id="experience">
             <h1 className="text-center text-5xl text-black dark:text-white">Experience</h1>
-            <div className="mt-10 flex flex-col md:flex-row items-center space-y-4 md:justify-around md:space-x-4 md:space-y-0">
+            <div className="mt-10 flex flex-col items-center space-y-4 md:flex-row md:justify-around md:space-x-4 md:space-y-0">
                 {[
                     {
                         name: "Ontopical",
@@ -21,6 +21,7 @@ const Experience: React.FC = () => {
                             Technologies.DOCKER,
                             Technologies.AWS,
                             Technologies.ELASTICSEARCH,
+                            Technologies.KIBANA,
                         ],
                     },
                     {
@@ -59,7 +60,7 @@ const Experience: React.FC = () => {
                 ].map((company, index) => (
                     <div
                         key={index}
-                        className="flex w-full flex-col justify-between rounded-lg border-2 border-inherit p-2 text-center items-center md:w-[30%]"
+                        className="flex w-full flex-col items-center justify-between rounded-lg border-2 border-inherit p-2 text-center md:w-[30%]"
                     >
                         <h1 className="text-2xl font-bold text-black dark:text-white">{company.name}</h1>
                         <p className="text-black dark:text-white">Logo goes here</p>
@@ -67,11 +68,13 @@ const Experience: React.FC = () => {
                             {company.start} - {company.end}
                         </p>
                         <p className="text-lg text-black dark:text-white">{company.position}</p>
-                        <p className="text-lg text-black dark:text-white">
+                        <p className="flex flex-row text-lg text-black dark:text-white">
                             {company.technologies.map((technology: Technologies, index: number) => (
-                                <span key={index} className="text-black dark:text-white">
-                                    {technologyLogos[technology]}
-                                </span>
+                                <div className="p-1" key={index}>
+                                    <span className="text-black dark:text-white">
+                                        {technologyLogos[technology]}
+                                    </span>
+                                </div>
                             ))}
                         </p>
                         <div className="flex flex-row items-center justify-center space-x-4">

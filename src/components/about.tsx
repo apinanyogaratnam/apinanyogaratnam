@@ -38,7 +38,7 @@ const About = () => {
                             (tech, index) => (
                                 <div
                                     key={index}
-                                    className="flex flex-row items-center justify-center rounded-md border-2 border-black px-4 py-2 text-black dark:text-white"
+                                    className="flex flex-row items-center justify-center rounded-md border-2 border-black px-4 py-2 text-black dark:border-white dark:text-white"
                                 >
                                     {tech}
                                 </div>
@@ -149,7 +149,7 @@ const About = () => {
                         ].map((hackathon, index) => (
                             <div
                                 key={index}
-                                className="flex flex-row items-center justify-center rounded-md border-2 border-black px-4 py-2 text-black dark:text-white"
+                                className="flex flex-row items-center justify-center rounded-md border-2 border-black px-4 py-2 text-black dark:border-white dark:text-white"
                             >
                                 {hackathon.name}
                             </div>
