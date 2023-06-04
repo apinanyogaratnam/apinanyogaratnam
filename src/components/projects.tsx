@@ -2,7 +2,7 @@ const Projects: React.FC = () => {
     return (
         <div className="min-h-screen" id="projects">
             <h1 className="text-center text-5xl text-black dark:text-white">Projects</h1>
-            <div className="mt-10 flex flex-col overflow-y-scroll md:flex-row md:justify-around md:space-x-4">
+            <div className="mt-10 flex flex-col overflow-y-scroll md:flex-row md:justify-around space-y-4 md:space-x-4 md:space-y-0">
                 {[
                     { name: "Ontopical", type: "personal", website: "https://example.com" },
                     { name: "One Cart Home", type: "freelance", website: "https://example.com" },
@@ -11,7 +11,7 @@ const Projects: React.FC = () => {
                 ].map((company, index) => (
                     <div
                         key={index}
-                        className="flex w-[30%] flex-col justify-between rounded-lg border-2 border-inherit p-2 text-center"
+                        className="flex w-full flex-col justify-between rounded-lg border-2 border-inherit p-2 text-center md:w-[30%]"
                     >
                         <h1 className="text-2xl font-bold text-black dark:text-white">{company.name}</h1>
                         <p className="text-black dark:text-white">Logo goes here</p>

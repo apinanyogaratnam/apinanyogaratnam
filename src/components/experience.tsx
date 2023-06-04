@@ -59,7 +59,7 @@ const Experience: React.FC = () => {
                 ].map((company, index) => (
                     <div
                         key={index}
-                        className="flex w-[30%] flex-col justify-between rounded-lg border-2 border-inherit p-2 text-center items-center"
+                        className="flex w-full flex-col justify-between rounded-lg border-2 border-inherit p-2 text-center items-center md:w-[30%]"
                     >
                         <h1 className="text-2xl font-bold text-black dark:text-white">{company.name}</h1>
                         <p className="text-black dark:text-white">Logo goes here</p>
