@@ -3,7 +3,7 @@ import { Technologies } from "@/constants/technologies";
 
 const Experience: React.FC = () => {
     return (
-        <div className="min-h-screen" id="experience">
+        <div className="min-h-screen">
             <h1 className="text-center text-5xl text-black dark:text-white">Experience</h1>
             <div className="mt-10 flex flex-col items-center space-y-4 md:flex-row md:justify-around md:space-x-4 md:space-y-0">
                 {[

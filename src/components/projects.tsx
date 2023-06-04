@@ -2,7 +2,7 @@ import { Button } from "@/components";
 
 const Projects: React.FC = () => {
     return (
-        <div className="min-h-screen" id="projects">
+        <div className="min-h-screen">
             <h1 className="text-center text-5xl text-black dark:text-white">Projects</h1>
             <div className="mt-10 w-full grid-cols-3 md:grid">
                 {[

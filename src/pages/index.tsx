@@ -1,26 +1,48 @@
 import { type NextPage } from "next";
 import Head from "next/head";
-import { useState } from "react";
+import { useEffect, useState, useRef } from "react";
 import { BsArrowDownCircle, BsArrowUpCircle } from "react-icons/bs";
 
 import { About, Experience, MainContent, NavBar, Projects } from "@/components";
 
+const sectionIds = ["main-content", "experience", "projects", "about"];
+
 const Home: NextPage = () => {
     const [currentSection, setCurrentSection] = useState(0);
-    const sectionIds = ["main-content", "experience", "projects", "about"];
+    const sectionRefs = useRef<(HTMLDivElement | null)[]>([]);
+
+    useEffect(() => {
+        const observer = new IntersectionObserver(
+            (entries) => {
+                entries.forEach((entry) => {
+                    if (entry.isIntersecting) {
+                        const sectionIndex = sectionIds.indexOf(entry.target.id);
+                        setCurrentSection(sectionIndex);
+                    }
+                });
+            },
+            { threshold: 0.7 }
+        );
+
+        const currentRefs = sectionRefs.current;
+        currentRefs.forEach((section) => {
+            section && observer.observe(section);
+        });
+
+        return () => {
+            currentRefs.forEach((section) => {
+                section && observer.unobserve(section);
+            });
+        };
+    }, []);
 
     const scrollToNextSection = () => {
-        if (currentSection < sectionIds.length - 1) {
-            const nextSectionId = sectionIds[currentSection + 1] as string;
-            const nextSection = document.getElementById(nextSectionId);
-
-            if (nextSection) {
-                const nextSectionPosition = nextSection.getBoundingClientRect().top + window.pageYOffset;
-                window.scrollTo({ top: nextSectionPosition, behavior: "smooth" });
-                setCurrentSection(currentSection + 1);
-            }
+        if (currentSection < sectionRefs.current.length - 1) {
+            const nextSection = sectionRefs.current[currentSection + 1];
+            nextSection && nextSection.scrollIntoView({ behavior: "smooth" });
         }
     };
+
     return (
         <>
             <Head>
@@ -42,10 +64,18 @@ const Home: NextPage = () => {
                     onClick={scrollToNextSection}
                 />
                 <NavBar setCurrentSection={setCurrentSection} />
-                <MainContent />
-                <Experience />
-                <Projects />
-                <About />
+                <div id="main-content" ref={(ref) => (sectionRefs.current[0] = ref)}>
+                    <MainContent />
+                </div>
+                <div id="experience" ref={(ref) => (sectionRefs.current[1] = ref)}>
+                    <Experience />
+                </div>
+                <div id="projects" ref={(ref) => (sectionRefs.current[2] = ref)}>
+                    <Projects />
+                </div>
+                <div id="about" ref={(ref) => (sectionRefs.current[3] = ref)}>
+                    <About />
+                </div>
             </main>
         </>
     );
