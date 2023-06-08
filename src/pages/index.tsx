@@ -52,6 +52,9 @@ const Home: NextPage = () => {
                 <link rel="icon" href="/favicon.ico" />
             </Head>
             <main className="ts bg-white p-2 dark:bg-gray-900">
+                <h1 className="text-4xl font-bold text-center text-gray-900 dark:text-gray-100">
+                    WORK IN PROGRESS
+                </h1>
                 <BsArrowUpCircle
                     className="fixed bottom-5 right-5 cursor-pointer text-4xl text-blue-500 hover:text-blue-700 dark:text-blue-300 dark:hover:text-blue-500"
                     onClick={() => {
