@@ -6,7 +6,7 @@ const MainContent: React.FC = () => {
             <div className="mt-10 flex flex-col items-center justify-center md:mt-20 md:flex-row md:space-x-4">
                 <div className="relative h-40 w-40 overflow-hidden rounded-full border-4 border-black dark:border-white md:h-[600px] md:w-[34%] md:rounded-none">
                     <Image
-                        src="/headshot.jpeg"
+                        src="/headshot.webp"
                         alt="Apinan Yogaratnam"
                         fill
                         loading="eager"

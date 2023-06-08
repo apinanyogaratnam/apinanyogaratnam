@@ -11,6 +11,7 @@
         "Ontopical",
         "superjson",
         "tailwindcss",
-        "TRPC"
+        "TRPC",
+        "webp"
     ]
 }
