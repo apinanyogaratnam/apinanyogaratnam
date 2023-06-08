@@ -10,6 +10,7 @@
         "nextjs",
         "Ontopical",
         "superjson",
+        "tailwindcss",
         "TRPC"
     ]
 }
