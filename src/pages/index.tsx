@@ -46,9 +46,10 @@ const Home: NextPage = () => {
     return (
         <>
             <Head>
-                <title>{"Apinan's portfolio"}</title>
-                <meta name="description" content="Apinan Yogaratnam portfolio website" />
+                <title>{"Apinan Yogaratnam"}</title>
+                <meta name="description" content="Apinan Yogaratnam's portfolio website" />
                 <meta name="robots" content="all" />
+                <meta name="google-site-verification" content="twY8lbCJJels95CDKkgjuwivtaNa1lU8AWo6rbKMBwc" />
                 <link rel="icon" href="/favicon.ico" />
             </Head>
             <main className="ts bg-white p-2 dark:bg-gray-900">
