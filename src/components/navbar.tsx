@@ -9,7 +9,7 @@ import { RxHamburgerMenu } from "react-icons/rx";
 import { CustomLink } from "@/components";
 import useTheme, { Theme } from "@/hooks/useTheme";
 
-const HamburgerMenu = dynamic(() => import("@/components/hamburger-menu"), { ssr: false });
+const HamburgerMenu = dynamic(() => import("@/components").then((mod) => mod.HamburgerMenu), { ssr: false });
 
 interface IProps {
     setCurrentSection: (section: number) => void;
