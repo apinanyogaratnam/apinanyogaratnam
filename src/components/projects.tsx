@@ -6,7 +6,12 @@ const Projects: React.FC = () => {
             <h1 className="text-center text-5xl text-black dark:text-white">Projects</h1>
             <div className="mt-10 w-full grid-cols-3 md:grid">
                 {[
-                    { name: "Api Key Management System", type: "personal", website: "", github: "https://github.com/apinanyogaratnam/akms" },
+                    {
+                        name: "Api Key Management System",
+                        type: "personal",
+                        website: "",
+                        github: "https://github.com/apinanyogaratnam/akms",
+                    },
                     { name: "AI3", type: "freelance", website: "https://ai3-client-git-main-ai3coadmin.vercel.app" },
                 ].map((company, index) => (
                     <div className="p-2" key={index}>
