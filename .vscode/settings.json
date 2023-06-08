@@ -9,6 +9,7 @@
         "NEXTAUTH",
         "nextjs",
         "Ontopical",
+        "preact",
         "superjson",
         "tailwindcss",
         "TRPC"
