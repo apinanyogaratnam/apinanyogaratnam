@@ -1,9 +1,15 @@
 import { type NextPage } from "next";
+import dynamic from "next/dynamic";
 import Head from "next/head";
 import { useEffect, useState, useRef } from "react";
 import { BsArrowDownCircle, BsArrowUpCircle } from "react-icons/bs";
 
-import { About, Experience, MainContent, NavBar, Projects } from "@/components";
+// TODO: test to see if this is necessary
+const About = dynamic(() => import("@/components").then((mod) => mod.About));
+const Experience = dynamic(() => import("@/components").then((mod) => mod.Experience));
+const MainContent = dynamic(() => import("@/components").then((mod) => mod.MainContent));
+const NavBar = dynamic(() => import("@/components").then((mod) => mod.NavBar));
+const Projects = dynamic(() => import("@/components").then((mod) => mod.Projects));
 
 const sectionIds = ["main-content", "experience", "projects", "about"];
 
