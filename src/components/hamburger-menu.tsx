@@ -9,7 +9,7 @@ const HamburgerMenu = (props: IProps) => {
 
     return (
         <div
-            className="fixed left-0 top-0 z-50 flex h-full w-full flex-col items-center justify-center bg-white"
+            className="fixed left-0 top-0 z-50 flex h-full w-full flex-col items-center justify-center bg-white dark:bg-gray-900"
             onClick={() => setIsMenuOpen(false)}
         >
             <Link href="/">
