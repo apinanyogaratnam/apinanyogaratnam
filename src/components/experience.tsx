@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 import { TechnologyLogos, Button } from "@/components";
-import { Technologies } from "@/constants/technologies";
+import { Technologies, TechnologiesWebsite } from "@/constants/technologies";
 
 const Experience: React.FC = () => {
     return (
@@ -78,9 +78,13 @@ const Experience: React.FC = () => {
                         <p className="text-lg text-black dark:text-white">{company.position}</p>
                         <div className="flex flex-row text-lg text-black dark:text-white">
                             {company.technologies.map((technology: Technologies, index: number) => (
-                                <div className="p-1" key={index}>
-                                    <span className="text-black dark:text-white">{TechnologyLogos[technology]}</span>
-                                </div>
+                                <Link href={TechnologiesWebsite[technology]} key={index} target="_blank" rel="noopener noreferrer">
+                                    <div className="p-1">
+                                        <span className="text-black dark:text-white">
+                                            {TechnologyLogos[technology]}
+                                        </span>
+                                    </div>
+                                </Link>
                             ))}
                         </div>
                         <div className="flex flex-row items-center justify-center space-x-4">
