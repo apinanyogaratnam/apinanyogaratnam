@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 import { TechnologyLogos, Button } from "@/components";
 import { Technologies } from "@/constants/technologies";
 
@@ -23,6 +25,8 @@ const Experience: React.FC = () => {
                             Technologies.ELASTICSEARCH,
                             Technologies.KIBANA,
                         ],
+                        website: "https://www.ontopical.com",
+                        linkedin: "https://www.linkedin.com/company/ontopical",
                     },
                     {
                         name: "WeMeta",
@@ -39,6 +43,8 @@ const Experience: React.FC = () => {
                             Technologies.AWS,
                             Technologies.KAFKA,
                         ],
+                        website: "https://www.wemeta.world",
+                        linkedin: "https://www.linkedin.com/company/wemeta",
                     },
                     {
                         name: "SAP Fioneer",
@@ -56,6 +62,8 @@ const Experience: React.FC = () => {
                             Technologies.KAFKA,
                             Technologies.KOTLIN,
                         ],
+                        website: "https://www.sapfioneer.com",
+                        linkedin: "https://www.linkedin.com/company/fioneer",
                     },
                 ].map((company, index) => (
                     <div
@@ -85,7 +93,9 @@ const Experience: React.FC = () => {
                                     )
                                 }
                             />
-                            <Button label="Website" onClick={() => window.open("https://ontopical.com", "_blank")} />
+                            <Link href={company.website} target="_blank" rel="noopener noreferrer">
+                                <Button label="Website" />
+                            </Link>
                         </div>
                     </div>
                 ))}
