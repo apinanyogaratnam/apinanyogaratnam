@@ -14,7 +14,7 @@ const Projects: React.FC = () => {
                         type: "personal",
                         website: "",
                         github: "https://github.com/apinanyogaratnam/akms",
-                        logo: null,
+                        logo: "/no-image.png",
                     },
                     {
                         name: "AI3",
@@ -39,7 +39,7 @@ const Projects: React.FC = () => {
                                 alt={company.name}
                                 width={200}
                                 height={200}
-                                className="rounded-lg w-[350px] h-[200px]"
+                                className="h-[200px] w-[350px] rounded-lg"
                             />
                             <p className="text-lg text-black dark:text-white">{company.type}</p>
                             <p className="text-lg text-black dark:text-white">
