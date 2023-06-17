@@ -53,9 +53,7 @@ const Home: NextPage = () => {
                 <link rel="icon" href="/favicon.ico" />
             </Head>
             <main className="ts bg-white p-2 dark:bg-gray-900">
-                <h1 className="text-4xl font-bold text-center text-gray-900 dark:text-gray-100">
-                    WORK IN PROGRESS
-                </h1>
+                <h1 className="text-center text-4xl font-bold text-gray-900 dark:text-gray-100">WORK IN PROGRESS</h1>
                 <BsArrowUpCircle
                     className="fixed bottom-5 right-5 cursor-pointer text-4xl text-blue-500 hover:text-blue-700 dark:text-blue-300 dark:hover:text-blue-500"
                     onClick={() => {
@@ -80,6 +78,16 @@ const Home: NextPage = () => {
                 <div id="about" ref={(ref) => (sectionRefs.current[3] = ref)}>
                     <About />
                 </div>
+                {/* <iframe
+                    title="Spotify Embed: Recommendation Playlist "
+                    src={`https://open.spotify.com/embed/playlist/5Pyrebtw931dV0rYGJtYnA?utm_source=generator&theme=0`}
+                    width="100%"
+                    height="100%"
+                    style={{ minHeight: "360px" }}
+                    frameBorder="0"
+                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                    loading="lazy"
+                /> */}
             </main>
         </>
     );
