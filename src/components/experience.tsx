@@ -78,7 +78,12 @@ const Experience: React.FC = () => {
                         <p className="text-lg text-black dark:text-white">{company.position}</p>
                         <div className="flex flex-row text-lg text-black dark:text-white">
                             {company.technologies.map((technology: Technologies, index: number) => (
-                                <Link href={TechnologiesWebsite[technology]} key={index} target="_blank" rel="noopener noreferrer">
+                                <Link
+                                    href={TechnologiesWebsite[technology]}
+                                    key={index}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
                                     <div className="p-1">
                                         <span className="text-black dark:text-white">
                                             {TechnologyLogos[technology]}
@@ -88,15 +93,9 @@ const Experience: React.FC = () => {
                             ))}
                         </div>
                         <div className="flex flex-row items-center justify-center space-x-4">
-                            <Button
-                                label="LinkedIn"
-                                onClick={() =>
-                                    window.open(
-                                        "https://drive.google.com/file/d/12A4kIJ4ebThgixk10x_iJrSWfyiVP0Es/view?usp=sharing",
-                                        "_blank"
-                                    )
-                                }
-                            />
+                            <Link href={company.linkedin} target="_blank" rel="noopener noreferrer">
+                                <Button label="LinkedIn" />
+                            </Link>
                             <Link href={company.website} target="_blank" rel="noopener noreferrer">
                                 <Button label="Website" />
                             </Link>
