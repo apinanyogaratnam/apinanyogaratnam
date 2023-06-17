@@ -46,10 +46,10 @@ const Projects: React.FC = () => {
                                 Python, React, Typescript, Nextjs, Postgres, Docker, AWS, Elasticsearch
                             </p>
                             <div className="flex flex-row items-center justify-center space-x-4">
-                                <Link href={company.github} target="_blank" rel="noopener noreferrer">
+                                <Link href={company.github} target="_blank" rel="noopener noreferrer" aria-label="Link to GitHub">
                                     <Button label="GitHub" />
                                 </Link>
-                                <Link href={company.website} target="_blank" rel="noopener noreferrer">
+                                <Link href={company.website} target="_blank" rel="noopener noreferrer" aria-label="Link to website">
                                     <Button label="Website" />
                                 </Link>
                             </div>

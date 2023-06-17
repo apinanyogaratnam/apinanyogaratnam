@@ -83,6 +83,7 @@ const Experience: React.FC = () => {
                                     key={index}
                                     target="_blank"
                                     rel="noopener noreferrer"
+                                    aria-label="Link to technology"
                                 >
                                     <div className="p-1">
                                         <span className="text-black dark:text-white">
@@ -93,10 +94,10 @@ const Experience: React.FC = () => {
                             ))}
                         </div>
                         <div className="flex flex-row items-center justify-center space-x-4">
-                            <Link href={company.linkedin} target="_blank" rel="noopener noreferrer">
+                            <Link href={company.linkedin} target="_blank" rel="noopener noreferrer" aria-label="Link to LinkedIn">
                                 <Button label="LinkedIn" />
                             </Link>
-                            <Link href={company.website} target="_blank" rel="noopener noreferrer">
+                            <Link href={company.website} target="_blank" rel="noopener noreferrer" aria-label="Link to website">
                                 <Button label="Website" />
                             </Link>
                         </div>
