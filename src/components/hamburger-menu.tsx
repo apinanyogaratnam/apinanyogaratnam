@@ -1,6 +1,7 @@
-import useTheme, { Theme } from "@/hooks/useTheme";
 import Link from "next/link";
 import { GrClose } from "react-icons/gr";
+
+import useTheme, { Theme } from "@/hooks/useTheme";
 
 interface IProps {
     setIsMenuOpen: (isMenuOpen: boolean) => void;
