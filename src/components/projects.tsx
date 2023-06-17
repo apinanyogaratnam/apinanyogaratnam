@@ -1,7 +1,7 @@
 import Image from "next/image";
+import Link from "next/link";
 
 import { Button } from "@/components";
-import Link from "next/link";
 
 const Projects: React.FC = () => {
     return (
