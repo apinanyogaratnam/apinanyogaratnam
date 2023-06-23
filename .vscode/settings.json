@@ -118,5 +118,8 @@
         "yallist",
         "yocto",
         "Yogaratnam"
-    ]
+    ],
+    "files.readonlyInclude": {
+        "**/node_modules/**": true,
+    }
 }
