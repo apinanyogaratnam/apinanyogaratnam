@@ -10,6 +10,10 @@
 
 [Insights](https://metrics.lecoq.io/insights?user=apinanyogaratnam)
 
+## Blog's I've been featured in
+
+- https://customgpt.ai/chatgpt-plugin-developers-biggest-challenges/
+
 ## Currently working on
 
 -   a major in mathematics 🧮
