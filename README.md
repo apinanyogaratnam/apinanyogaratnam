@@ -13,6 +13,7 @@
 ## Blog's I've been featured in
 
 - https://customgpt.ai/chatgpt-plugin-developers-biggest-challenges/
+- https://www.aigrowthpad.com/chatgpt-plugins/currency-converter
 
 ## Currently working on
 
