@@ -1,18 +1,24 @@
+import { Technologies } from "@/constants/technologies";
+import TechnologyLogos from "./logo";
+import Link from "next/link";
+import Button from "./button";
+
 const About = () => {
     return (
         <div className="min-h-screen">
             <h1 className="text-center text-5xl text-black dark:text-white">About</h1>
-            <div className="mt-10 space-y-10 p-5">
-                <div>
-                    <p className="text-center text-xl text-black dark:text-white">
+            <div className="mt-10 space-y-20 p-5">
+                <div className="flex flex-row">
+                    <div className="w-1/2" />
+                    <p className="w-1/2 text-xl text-black dark:text-white">
                         {`I'm a software engineer based in Toronto, Canada. I enjoy building things that live on the internet,
                     whether that be websites, applications, or anything in between. My goal is to always build products
-                    that provide pixel-perfect, performant experiences.`}
+                    that provide pixel-perfect, performant experiences. I am really passionate about data driven applications.`}
                     </p>
                 </div>
-                <div>
-                    <p className="text-center text-lg text-black dark:text-white">
-                        {`I'm currently studying at the`}{" "}
+                <div className="flex flex-row">
+                    <p className="w-1/2 text-start text-lg text-black dark:text-white">
+                        {/* {`I'm currently studying at the`}{" "}
                         <a
                             className="text-black dark:text-white"
                             href="https://www.utoronto.ca"
@@ -21,59 +27,66 @@ const About = () => {
                         >
                             University of Toronto
                         </a>
-                        {` pursuing a Bachelor of Science.`}
+                        {` pursuing a Bachelor of Science.`} */}
+                        {`This journey started in January 2019 when I was close friends with someone who know a bit of programming.
+                        I thought it was cool so I enrolled in the Computer Science course at SJPII High School. I was hooked. Copying
+                        and pasting code from google drive to take home and go above and beyond with my projects was my thing. I was
+                        in love with Java and realized that I wanted to pursue a career in software engineering. I applied to the
+                        University of Toronto and got accepted into the Computer Science program. I started taking statistic courses
+                        and realized I really enjoyed data and data driven applications. When I'm not in front of a computer screen, I'm probably playing basketball, video games, working out, or watching Netflix.`}
                     </p>
-                </div>
-                <div>
-                    <p className="text-center text-lg text-black dark:text-white">
-                        {`I am really passionate about data driven applications.`}
-                    </p>
+                    <div className="w-1/2" />
                 </div>
                 <div>
                     <p className="text-center text-lg text-black dark:text-white">
                         {`Here are a few technologies I've been working with recently:`}
                     </p>
                     <div className="mt-2 flex flex-row justify-center space-x-4 overflow-y-scroll">
-                        {["Python", "React", "Nextjs", "Typescript", "Postgres", "Docker", "AWS", "Elasticsearch"].map(
-                            (tech, index) => (
-                                <div
-                                    key={index}
-                                    className="flex flex-row items-center justify-center rounded-md border-2 border-black px-4 py-2 text-black dark:border-white dark:text-white"
-                                >
-                                    {tech}
-                                </div>
-                            )
-                        )}
+                        {[
+                            Technologies.PYTHON,
+                            Technologies.REACT,
+                            Technologies.NEXTJS,
+                            Technologies.TYPESCRIPT,
+                            Technologies.POSTGRESQL,
+                            Technologies.DOCKER,
+                            Technologies.AWS,
+                            Technologies.ELASTICSEARCH,
+                        ].map((tech: Technologies, index: number) => (
+                            <div
+                                key={index}
+                                className="flex flex-col items-center justify-center rounded-md border-2 border-black px-4 py-2 text-black dark:border-white dark:text-white"
+                            >
+                                {TechnologyLogos[tech]}
+                                {tech}
+                            </div>
+                        ))}
                     </div>
-                    <p className="text-center text-lg text-black dark:text-white">
-                        {`When I'm not in front of a computer screen, I'm probably playing basketball, video games, working out, or watching Netflix.`}
-                    </p>
                 </div>
                 <div>
                     <p className="text-center text-lg text-black dark:text-white">
                         {`Hackathons are my thing. I love building things from scratch and learning new technologies.
                     Here are the hackathons I've participated in:`}
                     </p>
-                    <div className="flex flex-row justify-center space-x-4 overflow-y-scroll">
+                    <div className="mx-auto flex w-[80%] flex-row items-center space-x-4 overflow-y-scroll">
                         {[
-                            {
-                                name: "MacHacks",
-                                link: "https://machacks.ca",
-                                year: 2021,
-                                projectUrl: null,
-                                github: null,
-                                youtube: null,
-                                wonPrize: false,
-                            },
-                            {
-                                name: "YuHacks",
-                                link: "https://yuhacks.ca",
-                                year: 2021,
-                                projectUrl: null,
-                                github: null,
-                                youtube: null,
-                                wonPrize: false,
-                            },
+                            // {
+                            //     name: "MacHacks",
+                            //     link: "https://machacks.ca",
+                            //     year: 2021,
+                            //     projectUrl: null,
+                            //     github: null,
+                            //     youtube: null,
+                            //     wonPrize: false,
+                            // },
+                            // {
+                            //     name: "YuHacks",
+                            //     link: "https://yuhacks.ca",
+                            //     year: 2021,
+                            //     projectUrl: null,
+                            //     github: null,
+                            //     youtube: null,
+                            //     wonPrize: false,
+                            // },
                             {
                                 name: "Nervos",
                                 link: "https://gitcoin.co/hackathon/nervos/",
@@ -149,9 +162,32 @@ const About = () => {
                         ].map((hackathon, index) => (
                             <div
                                 key={index}
-                                className="flex flex-row items-center justify-center rounded-md border-2 border-black px-4 py-2 text-black dark:border-white dark:text-white"
+                                className="flex flex-col items-center justify-center rounded-md border-2 border-black px-4 py-2 text-black dark:border-white dark:text-white"
                             >
-                                {hackathon.name}
+                                {hackathon.name} {hackathon.year}
+                                <div className="flex flex-row items-center space-x-4">
+                                    {hackathon.projectUrl && (
+                                        <Link href={hackathon.projectUrl || ""}>
+                                            <Button label="Project" />
+                                        </Link>
+                                    )}
+
+                                    {hackathon.github && (
+                                        <Link href={hackathon.github || ""}>
+                                            <Button label="Github" />
+                                        </Link>
+                                    )}
+
+                                    <Link href={hackathon.link}>
+                                        <Button label="Website" />
+                                    </Link>
+
+                                    {hackathon.youtube && (
+                                        <Link href={hackathon.youtube || ""}>
+                                            <Button label="Youtube" />
+                                        </Link>
+                                    )}
+                                </div>
                             </div>
                         ))}
                     </div>
