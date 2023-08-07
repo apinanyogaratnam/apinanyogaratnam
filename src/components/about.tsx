@@ -1,7 +1,9 @@
-import { Technologies } from "@/constants/technologies";
-import TechnologyLogos from "./logo";
 import Link from "next/link";
+
+import { Technologies } from "@/constants/technologies";
+
 import Button from "./button";
+import TechnologyLogos from "./logo";
 
 const About = () => {
     return (
