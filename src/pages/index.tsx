@@ -52,7 +52,7 @@ const Home: NextPage = () => {
                 <meta name="google-site-verification" content="twY8lbCJJels95CDKkgjuwivtaNa1lU8AWo6rbKMBwc" />
                 <link rel="icon" href="/favicon.ico" />
                 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1510725724238011"
-     crossorigin="anonymous"></script>
+     crossOrigin="anonymous"></script>
             </Head>
             <main className="ts bg-white p-2 dark:bg-gray-900">
 {/*                 <h1 className="text-center text-4xl font-bold text-gray-900 dark:text-gray-100">WORK IN PROGRESS</h1> */}
