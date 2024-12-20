@@ -22,6 +22,8 @@ const MyApp: AppType<{ session: Session | null }> = ({ Component, pageProps: { s
         // eslint-disable-next-line react-hooks/exhaustive-deps
     }, []);
 
+    return null;
+
     return (
         <SessionProvider session={session}>
             <Component {...pageProps} />
